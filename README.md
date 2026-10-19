@@ -12,7 +12,7 @@
 <h2 align="center">Get Hearth</h2>
 
 <p align="center">
-  <a href="https://github.com/tsumilo/Hearth-releases/releases/latest"><img src="assets/btn-windows.png" width="300" alt="Download Hearth for Windows"></a>
+  <a href="https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/launcher/Hearth-setup.exe"><img src="assets/btn-windows.png" width="300" alt="Download Hearth for Windows"></a>
 </p>
 
 <p align="center"><sub>
@@ -52,18 +52,19 @@
   <br>
 
   - `channels/`: the signed game lists Hearth reads (`stable`, and `beta` for testers).
-  - `objects/`: the games' files, one per version of each file, named by their SHA-256.
-  - Releases: each version of the Hearth launcher, with its installer.
+  - The games' files and Hearth's installers are not in git: they are on Cloudflare R2 (the address is in each
+    game list), one object per version of each file, named by its SHA-256.
 
-  Hearth reads this repository straight from `raw.githubusercontent.com`. A game list whose signature doesn't
-  match the key built into Hearth is refused, and so is any file whose SHA-256 doesn't match the list.
+  Hearth reads the game lists straight from `raw.githubusercontent.com`. A game list whose signature doesn't
+  match the key built into Hearth is refused, and so is any file whose SHA-256 doesn't match the list. Hearth's
+  own updates are signed too, with a key of their own.
 </details>
 
 <details>
   <summary><b>Privacy</b></summary>
   <br>
 
-  - Games and updates come from this repository on GitHub, like any download.
+  - Game lists come from this repository on GitHub, and the files from Cloudflare R2, like any download.
   - With an invite, Hearth connects to the Hearth server for friends, chat and lobbies. The server keeps your
     chosen name, your friends list and your direct messages. Who's online, what they play, lobbies and lobby
     chat are only kept while the server runs.
