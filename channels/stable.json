@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "name": "Hearth",
+  "channel": "stable",
+  "seq": 9,
+  "published": "2026-10-19T14:12:32Z",
+  "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
+  "games": [
+    {
+      "id": "kindle_and_keep",
+      "title": "Kindle & Keep",
+      "tagline": "Keep the hearthfire burning through the night.",
+      "kicker": "Co-op build & defend",
+      "accent": "224, 122, 46",
+      "version": "0.1.1",
+      "build": "7b088593ead7664d",
+      "published": "2026-10-18T21:58:08Z",
+      "notes": null,
+      "manifest": {
+        "sha256": "dceb29ed79834149c862855513c46a1a188e56875f406d6331b39930810d69ed",
+        "size": 5397,
+        "gz": 1401
+      },
+      "platforms": {
+        "windows": {
+          "files": 22,
+          "bytes": 12796640,
+          "gz": 4593493
+        }
+      },
+      "art": {
+        "icon": {
+          "file": "icon.png",
+          "sha256": "01514fc2311bc87c1a8c4ec083af2836240219d02741f6703e53eff17e820881",
+          "size": 47013,
+          "gz": 47032
+        }
+      },
+      "players": [
+        1,
+        4
+      ]
+    }
+  ]
+}

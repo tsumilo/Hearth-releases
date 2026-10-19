@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "name": "Hearth",
+  "channel": "beta",
+  "seq": 3,
+  "published": "2026-10-19T14:12:32Z",
+  "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
+  "games": [
+    {
+      "id": "hello",
+      "title": "Hello Hearth",
+      "tagline": "The smallest game there is: it says hello and counts how often you started it.",
+      "kicker": "Test game",
+      "accent": "255, 138, 58",
+      "version": "0.1.1",
+      "build": "d7c0edb46e8bf7d1",
+      "published": "2026-10-18T17:15:11Z",
+      "notes": {
+        "changelog": [
+          {
+            "date": "18 October 2026",
+            "sections": [
+              {
+                "heading": "Level one",
+                "kind": "new",
+                "lead": "The game carries a data file now, to try updates.",
+                "lines": [
+                  "Updating keeps the old version in Backups."
+                ]
+              }
+            ],
+            "title": "A first level",
+            "version": "0.1.1"
+          },
+          {
+            "date": "18 October 2026",
+            "sections": [
+              {
+                "heading": "First light",
+                "kind": "new",
+                "lead": "The smallest game there is: it says hello and counts how often you started it.",
+                "lines": [
+                  "Shows what Hearth hands every game when it starts it.",
+                  "Keeps its count in your saves folder, which Hearth backs up."
+                ]
+              }
+            ],
+            "title": "Hello, Hearth",
+            "version": "0.1.0"
+          }
+        ]
+      },
+      "manifest": {
+        "sha256": "534c8fb5f1a88f714038fcc051c9da925ce0cbab9a4b1286e9b3351fd9af8d98",
+        "size": 550,
+        "gz": 288
+      },
+      "platforms": {
+        "windows": {
+          "files": 2,
+          "bytes": 140810,
+          "gz": 71994
+        }
+      },
+      "art": {
+        "hero": {
+          "file": "hero.jpg",
+          "sha256": "547e1509c39b35b7434f69ac98ab84c1dbd926a289ace84a99a64f8a0cbe500b",
+          "size": 50261,
+          "gz": 45469
+        },
+        "icon": {
+          "file": "icon.jpg",
+          "sha256": "3ed7223b55442497376a61673f0686ccbb687c55dc721170fab06f568d19426f",
+          "size": 3935,
+          "gz": 3793
+        },
+        "logo": {
+          "file": "logo.png",
+          "sha256": "834510617aee36b63b3719153c0a60b868b317f48751d04711f17318a4c9409a",
+          "size": 62561,
+          "gz": 59550
+        }
+      },
+      "players": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "kindle_and_keep",
+      "title": "Kindle & Keep",
+      "tagline": "Keep the hearthfire burning through the night.",
+      "kicker": "Co-op build & defend",
+      "accent": "224, 122, 46",
+      "version": "0.1.1",
+      "build": "7b088593ead7664d",
+      "published": "2026-10-18T21:58:08Z",
+      "notes": null,
+      "manifest": {
+        "sha256": "dceb29ed79834149c862855513c46a1a188e56875f406d6331b39930810d69ed",
+        "size": 5397,
+        "gz": 1401
+      },
+      "platforms": {
+        "windows": {
+          "files": 22,
+          "bytes": 12796640,
+          "gz": 4593493
+        }
+      },
+      "art": {
+        "icon": {
+          "file": "icon.png",
+          "sha256": "01514fc2311bc87c1a8c4ec083af2836240219d02741f6703e53eff17e820881",
+          "size": 47013,
+          "gz": 47032
+        }
+      },
+      "players": [
+        1,
+        4
+      ]
+    }
+  ]
+}
