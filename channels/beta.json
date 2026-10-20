@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 5,
-  "published": "2026-10-20T13:08:53Z",
+  "seq": 6,
+  "published": "2026-10-20T13:47:21Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,39 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.3.0",
-      "build": "238b39516f5a2951",
-      "published": "2026-10-20T13:08:53Z",
+      "version": "0.3.1",
+      "build": "215673e3cf5fe902",
+      "published": "2026-10-20T13:47:21Z",
       "notes": {
         "changelog": [
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "Your character",
+                "kind": "new",
+                "lead": "Your keeper is the character you made on Hearth's Character page, and your friends see theirs.",
+                "lines": [
+                  "Your body, face, proportions, hair, brows, beard and colours, with your marks, freckles and stubble.",
+                  "At the muster you see yourself in every kit; the body buttons make way for \"Your character\".",
+                  "Change your character in Hearth while you play, and your keeper changes with it.",
+                  "No character yet? You keep the kit's own keeper, and still choose the body at the muster."
+                ]
+              },
+              {
+                "heading": "What a kit covers",
+                "kind": "changed",
+                "lead": "A kit's gear goes over your character, and covers what it covers.",
+                "lines": [
+                  "The Ranger's hood: a buzzcut underneath, whatever hair you picked.",
+                  "The Warden's helm: your hair and beard tucked under its band.",
+                  "Your saved character never changes: take the hood off by picking another kit."
+                ]
+              }
+            ],
+            "title": "Your own keeper",
+            "version": "0.3.1"
+          },
           {
             "date": "20 October 2026",
             "sections": [
@@ -202,15 +230,15 @@
         ]
       },
       "manifest": {
-        "sha256": "af3bd75a0801c2e64356ace226ececa7971fab2af1f542a10f023c50c223506d",
-        "size": 97480,
-        "gz": 21420
+        "sha256": "d9361d8892c79f9e8ce24da4473014c675f11c090ba45e867d8ea3056a71ada8",
+        "size": 97627,
+        "gz": 21464
       },
       "platforms": {
         "windows": {
-          "files": 396,
-          "bytes": 157874539,
-          "gz": 33328202
+          "files": 397,
+          "bytes": 159237345,
+          "gz": 33763143
         }
       },
       "art": {
