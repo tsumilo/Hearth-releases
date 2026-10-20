@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 4,
-  "published": "2026-10-20T02:42:51Z",
+  "seq": 5,
+  "published": "2026-10-20T13:08:53Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,39 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.2.0",
-      "build": "c26058fa23a22484",
-      "published": "2026-10-20T02:42:51Z",
+      "version": "0.3.0",
+      "build": "238b39516f5a2951",
+      "published": "2026-10-20T13:08:53Z",
       "notes": {
         "changelog": [
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "The Warden",
+                "kind": "new",
+                "lead": "A third keeper: the shield. It fights up close and pulls the Gloam onto itself. Press 3 at the muster.",
+                "lines": [
+                  "Sword: a chain of three swings that hits everything in reach in front of you; the third throws them back.",
+                  "Q Challenge: every walker within 12 m turns on you, and you take 40% less while it lasts.",
+                  "E Shield Wall: claws from the front do nothing, and whatever struck it is thrown back and dazed.",
+                  "Space Shield Rush: a charge that throws walkers aside.",
+                  "Bulwark: tough, and the pieces near you take less damage.",
+                  "Eight boons of its own, from Keen Edge to Gatekeeper's Oath."
+                ]
+              },
+              {
+                "heading": "Keepers heal",
+                "kind": "changed",
+                "lead": "Health comes back slowly and steadily while you're up, by day and by night.",
+                "lines": [
+                  "The Ranger and the Tinker heal 1 health a second, the Warden 2."
+                ]
+              }
+            ],
+            "title": "The shield at the fire",
+            "version": "0.3.0"
+          },
           {
             "date": "20 October 2026",
             "sections": [
@@ -174,15 +202,15 @@
         ]
       },
       "manifest": {
-        "sha256": "d8d59ccb2792ddd10b23413036895fe65939245a7f6c5f869b991019ff3c4421",
-        "size": 80618,
-        "gz": 18076
+        "sha256": "af3bd75a0801c2e64356ace226ececa7971fab2af1f542a10f023c50c223506d",
+        "size": 97480,
+        "gz": 21420
       },
       "platforms": {
         "windows": {
-          "files": 334,
-          "bytes": 109059647,
-          "gz": 32156676
+          "files": 396,
+          "bytes": 157874539,
+          "gz": 33328202
         }
       },
       "art": {

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "kindle_and_keep",
+    "version": "0.3.0",
+    "build": "238b39516f5a2951",
+    "published": "2026-10-20T13:08:53Z",
+    "manifest": {
+      "sha256": "af3bd75a0801c2e64356ace226ececa7971fab2af1f542a10f023c50c223506d",
+      "size": 97480,
+      "gz": 21420
+    },
+    "art": [
+      {
+        "sha256": "01514fc2311bc87c1a8c4ec083af2836240219d02741f6703e53eff17e820881",
+        "size": 47013,
+        "gz": 47032
+      }
+    ]
+  }
+]
