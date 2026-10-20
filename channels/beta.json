@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 6,
-  "published": "2026-10-20T13:47:21Z",
+  "seq": 7,
+  "published": "2026-10-20T15:11:49Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,37 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.3.1",
-      "build": "215673e3cf5fe902",
-      "published": "2026-10-20T13:47:21Z",
+      "version": "0.3.2",
+      "build": "13c2a1b96999e483",
+      "published": "2026-10-20T15:11:49Z",
       "notes": {
         "changelog": [
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "Grass",
+                "kind": "new",
+                "lead": "The island is a meadow now: thick, tall grass with drifts of small flowers, swaying as gusts roll in from the sea.",
+                "lines": [
+                  "It parts round your feet as you run and springs back behind you. Your friends' keepers and the Gloam leave their trails too.",
+                  "A Flare throws the grass back in a ring and burns a patch that glows with embers, stays burnt for a minute and slowly grows back.",
+                  "Shield Rush and dashes flatten a wake; a Springheels landing, a Snap Trap, a Challenge and sword swings push it aside.",
+                  "It stays short round the camp, so you can still see feet and the smallest Gloam by the fire."
+                ]
+              },
+              {
+                "heading": "The Flare",
+                "kind": "changed",
+                "lead": "The blast no longer leaves a glowing blob on the ground; the burning grass shows where it struck.",
+                "lines": [
+                  "Throw one into the sea and see what happens."
+                ]
+              }
+            ],
+            "title": "The meadow",
+            "version": "0.3.2"
+          },
           {
             "date": "20 October 2026",
             "sections": [
@@ -230,15 +256,15 @@
         ]
       },
       "manifest": {
-        "sha256": "d9361d8892c79f9e8ce24da4473014c675f11c090ba45e867d8ea3056a71ada8",
-        "size": 97627,
-        "gz": 21464
+        "sha256": "1300fddf4cc3c308d541287e98ba0d22d181afd2dd8fd0e468553459b63b8430",
+        "size": 99526,
+        "gz": 21861
       },
       "platforms": {
         "windows": {
-          "files": 397,
-          "bytes": 159237345,
-          "gz": 33763143
+          "files": 404,
+          "bytes": 159576971,
+          "gz": 33831314
         }
       },
       "art": {
