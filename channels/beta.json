@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 3,
-  "published": "2026-10-19T14:12:32Z",
+  "seq": 4,
+  "published": "2026-10-20T02:42:51Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,20 +93,96 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.1.1",
-      "build": "7b088593ead7664d",
-      "published": "2026-10-18T21:58:08Z",
-      "notes": null,
+      "version": "0.2.0",
+      "build": "c26058fa23a22484",
+      "published": "2026-10-20T02:42:51Z",
+      "notes": {
+        "changelog": [
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "The Tinker",
+                "kind": "new",
+                "lead": "A second keeper, and you choose yours at the muster before the first day.",
+                "lines": [
+                  "Crossbow: heavy bolts that pierce two enemies, spanned by hand between shots.",
+                  "Q sets a Sentry, a clockwork bolt-thrower. E lays a Snap Trap. Space leaps on Springheels, even over walls.",
+                  "Handy: the Tinker builds for less, works faster, and mends damaged pieces (hold F).",
+                  "Eight boons of its own, from Heavy Bolts to Twin Sentries.",
+                  "Everyone picks at once and sees each other's picks. Two keepers may take the same kit."
+                ]
+              },
+              {
+                "heading": "Expeditions",
+                "kind": "new",
+                "lead": "Reasons to leave the light by day.",
+                "lines": [
+                  "Old braziers to relight with embers: each grows the land, and the Gloam goes for it at night.",
+                  "Chop trees and quarry stone outside the light, and carry the load home. Towers cost stone.",
+                  "Drop a load and it stays as a pile you can pick up again.",
+                  "A compass in the top right shows the island, the sites and where the Gloam comes from. T tracks a site."
+                ]
+              },
+              {
+                "heading": "Boons",
+                "kind": "new",
+                "lead": "At dawn the team votes on a keep boon, and each keeper picks one of their own.",
+                "lines": [
+                  "A tie is drawn at random, the same for everyone.",
+                  "Tab opens the boon panel: every boon you hold, with its real numbers."
+                ]
+              },
+              {
+                "heading": "A new look",
+                "kind": "changed",
+                "lead": "The island, the fire and the keepers, redone.",
+                "lines": [
+                  "The hearth burns like a real fire, and gutters when it's hurt.",
+                  "Painted ground and props, a larger island with finer terrain, and a clear sea.",
+                  "Past the firelight, the night is dark fog and smoke.",
+                  "The keepers are new: Rangers and Tinkers, firelit, with an ink line, and you see them through walls.",
+                  "The keeper runs while shooting, aims with the upper body, draws a real bow, and flinches when hit.",
+                  "Flare has a cast, a flight and an impact. Moths fall when they die, and souls fly home to the fire.",
+                  "A new HUD around the hearth's crown, with icons rendered from the game's own models.",
+                  "Smoother edges (anti-aliasing; F2 changes it)."
+                ]
+              },
+              {
+                "heading": "Playing together",
+                "kind": "changed",
+                "lead": "Smoother co-op through a Hearth lobby.",
+                "lines": [
+                  "Join a game that's already playing: you watch until dawn, then your keeper joins.",
+                  "Close the game and press Playing in the lobby to come back to your own keeper."
+                ]
+              },
+              {
+                "heading": "Fixes and quality",
+                "kind": "fixed",
+                "lead": "The game opens borderless fullscreen, with its icon and a loading screen.",
+                "lines": [
+                  "F11 or Alt+Enter switches to a window.",
+                  "Shadows no longer flicker on moving characters, and enemies stand on the ground.",
+                  "Hold the right mouse button to take a piece down, instead of a single click."
+                ]
+              }
+            ],
+            "title": "Out past the firelight",
+            "version": "0.2.0"
+          }
+        ]
+      },
       "manifest": {
-        "sha256": "dceb29ed79834149c862855513c46a1a188e56875f406d6331b39930810d69ed",
-        "size": 5397,
-        "gz": 1401
+        "sha256": "d8d59ccb2792ddd10b23413036895fe65939245a7f6c5f869b991019ff3c4421",
+        "size": 80618,
+        "gz": 18076
       },
       "platforms": {
         "windows": {
-          "files": 22,
-          "bytes": 12796640,
-          "gz": 4593493
+          "files": 334,
+          "bytes": 109059647,
+          "gz": 32156676
         }
       },
       "art": {
