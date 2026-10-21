@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 14,
-  "published": "2026-10-21T18:52:04Z",
+  "seq": 15,
+  "published": "2026-10-21T20:05:05Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -95,7 +95,7 @@
       "accent": "224, 122, 46",
       "version": "0.4.6",
       "build": "f9e2f8e514e5cf4d",
-      "published": "2026-10-21T18:52:04Z",
+      "published": "2026-10-21T20:05:05Z",
       "notes": {
         "changelog": [
           {
@@ -495,6 +495,12 @@
         }
       },
       "art": {
+        "film": {
+          "file": "film.webm",
+          "sha256": "a2b31732bf6f8b1037b67e8ddc6792830b41a7a679858a74c8609247f8c184bf",
+          "size": 11860941,
+          "gz": 11862090
+        },
         "hero": {
           "file": "hero.jpg",
           "sha256": "3827ed1e9c4b47e59172edbde6aa930c369059506db93d92a6821b8d79adc637",
