@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 9,
-  "published": "2026-10-21T00:31:39Z",
+  "seq": 10,
+  "published": "2026-10-21T08:48:14Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,37 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.1",
-      "build": "02095a0c6b121e03",
-      "published": "2026-10-21T00:31:39Z",
+      "version": "0.4.2",
+      "build": "09bcc5a0f3e3cd7d",
+      "published": "2026-10-21T08:48:14Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The menu",
+                "kind": "new",
+                "lead": "Esc opens a menu at the side of the screen, and the game goes on behind it.",
+                "lines": [
+                  "Settings for sound, graphics and display take effect as you change them, and are kept for next time.",
+                  "A Controls page lists every key.",
+                  "Leave game asks first, and says what leaving means for the others in your party."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "Longer days, and a clearer place to build.",
+                "lines": [
+                  "The day lasts twice as long (four minutes). Dusk, night and dawn are as they were.",
+                  "A building sits on bare earth from the moment you place it, so you can see where its foundation goes."
+                ]
+              }
+            ],
+            "title": "A place to stand",
+            "version": "0.4.2"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -345,15 +371,15 @@
         ]
       },
       "manifest": {
-        "sha256": "984c753db03bff50709c24eba666997bc2e9e2bd1182bb0caf7027779d25e166",
+        "sha256": "5dc9e0d0c5de3e8e3d28976d377f0420a0213ffbbf8623467b79df29aa636203",
         "size": 164421,
-        "gz": 34250
+        "gz": 34257
       },
       "platforms": {
         "windows": {
           "files": 635,
-          "bytes": 302162528,
-          "gz": 59231595
+          "bytes": 302369644,
+          "gz": 59278844
         }
       },
       "art": {
