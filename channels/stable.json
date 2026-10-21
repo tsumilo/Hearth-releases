@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "stable",
-  "seq": 9,
-  "published": "2026-10-19T14:12:32Z",
+  "seq": 10,
+  "published": "2026-10-21T16:28:49Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -12,20 +12,381 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.1.1",
-      "build": "7b088593ead7664d",
-      "published": "2026-10-18T21:58:08Z",
-      "notes": null,
+      "version": "0.4.5",
+      "build": "c9db7bb9dba37b39",
+      "published": "2026-10-21T16:27:42Z",
+      "notes": {
+        "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "new",
+                "lead": "The water moves for real.",
+                "lines": [
+                  "A Flare in the sea punches a hole in the water and churns it white. Rings spread out from it, cross each other, bounce off the rocks and the shore, slow down over the shallows and break on the beach. The spray that falls back rings the water where it lands.",
+                  "Anyone wading in the surf leaves a wake.",
+                  "Surf runs up the beach and drains back every few seconds, with its foam line riding the water's edge. It leaves foam on the sand that slowly dissolves, and sand that stays dark and wet for a while.",
+                  "The sky's reflections on the water break into many small glints instead of a few soft blobs."
+                ]
+              },
+              {
+                "heading": "The night fog",
+                "kind": "new",
+                "lead": "The fog past the firelight has a real top.",
+                "lines": [
+                  "It drifts and billows a metre or more deep, so trees stand in it, and it glows warm near the fire, the braziers and the lanterns. Lit brazier paths stay clear of it.",
+                  "Keepers, hearthfolk and the Gloam stir it as they wade through, and the Emberkeeper's lantern lights it from inside.",
+                  "It takes far less of your graphics card than the fog it replaces."
+                ]
+              },
+              {
+                "heading": "Sound",
+                "kind": "new",
+                "lead": "Recorded sounds, heard from where they happen.",
+                "lines": [
+                  "The bow, arrow hits, the volley, the dash, the Flare from throw to blast, the Warden's sword, shield and war cry, both horns, the crackle of the hearth and every lit brazier, the day and the night, and footsteps on grass and bare earth.",
+                  "Sounds come from where they happen, and get quieter and more muffled further away."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "Rocks break, and the day is longer.",
+                "lines": [
+                  "Rocks shake with every blow, chunks fly off them, and they split apart in a cloud of dust when they break.",
+                  "The day lasts six minutes instead of four: more time to gather, build and explore before dusk."
+                ]
+              }
+            ],
+            "title": "The living sea",
+            "version": "0.4.5"
+          },
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Island life",
+                "kind": "new",
+                "lead": "Birds, butterflies and falling leaves by day.",
+                "lines": [
+                  "Sparrows, chaffinches, robins and blackbirds land on the bare earth round the hearth and the buildings, the beach, rocks and treetops. They hop, peck, and take off when anyone comes near. Through dusk they go to roost in the trees, and they come back at dawn.",
+                  "Now and then a flock of starlings circles overhead before moving on.",
+                  "Butterflies flutter over the flowers, stop to feed, sometimes dance up in pairs, and settle into the grass before evening.",
+                  "Leaves fall from the oaks, swinging and tumbling down, and blow with the same gusts that ripple the grass.",
+                  "Abilities stir them up: birds flush, butterflies scatter, and blasts throw leaves about and shake more from the trees."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "The Ranger shoots real arrows.",
+                "lines": [
+                  "Arrows fly as arrows, with a steel head and red fletching, instead of glowing streaks. They're drawn a little larger than life so you can follow them."
+                ]
+              }
+            ],
+            "title": "Wings over the meadow",
+            "version": "0.4.4"
+          },
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "The menu fits every screen.",
+                "lines": [
+                  "On screens narrower than widescreen (16:10, 4:3) the settings ran off the right edge. They now fit, with the controls a little narrower."
+                ]
+              }
+            ],
+            "title": "Room for the menu",
+            "version": "0.4.3"
+          },
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The menu",
+                "kind": "new",
+                "lead": "Esc opens a menu at the side of the screen, and the game goes on behind it.",
+                "lines": [
+                  "Settings for sound, graphics and display take effect as you change them, and are kept for next time.",
+                  "A Controls page lists every key.",
+                  "Leave game asks first, and says what leaving means for the others in your party."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "Longer days, and a clearer place to build.",
+                "lines": [
+                  "The day lasts twice as long (four minutes). Dusk, night and dawn are as they were.",
+                  "A building sits on bare earth from the moment you place it, so you can see where its foundation goes."
+                ]
+              }
+            ],
+            "title": "A place to stand",
+            "version": "0.4.2"
+          },
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "Two things that looked wrong.",
+                "lines": [
+                  "The oaks' leaves no longer go black on the side away from the sun: the light comes through them.",
+                  "The number in a building site's progress ring sits in the middle of the ring."
+                ]
+              }
+            ],
+            "title": "Leaves in the light",
+            "version": "0.4.1"
+          },
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The Emberkeeper",
+                "kind": "new",
+                "lead": "A fourth keeper: a hooded healer with a lantern, who keeps the others going.",
+                "lines": [
+                  "Cinders in bursts of four; Q turns the wick between Warmth (keepers in its light heal) and Draft (they run faster).",
+                  "E stokes the lantern for a stronger gift; Space throws the walkers in front back and dazes them.",
+                  "Eight boons of its own. Press 4 at the muster to pick it."
+                ]
+              },
+              {
+                "heading": "The Wick-Eater",
+                "kind": "new",
+                "lead": "The first boss comes on night 10: a lantern centipede that keeps to the dark and eats your light.",
+                "lines": [
+                  "Out in the dark it's smoke that nothing hurts. Light gives it a body: the fire's, a brazier's, a Flare's.",
+                  "It eats lit braziers, lunges at keepers who stray out, and raids the hearth. At half health it gulps the fire's light."
+                ]
+              },
+              {
+                "heading": "A bigger island",
+                "kind": "new",
+                "lead": "The island is twice as wide: forest all the way to a coast 130 m out.",
+                "lines": [
+                  "Nine old braziers, six quarries and five ruins to find. The Gloam walk in from further out.",
+                  "New trees and rocks that sway in the wind and bend as you push through them."
+                ]
+              },
+              {
+                "heading": "Ruins and chests",
+                "kind": "new",
+                "lead": "The old watch's ruins hold chests, and a few gloamlings doze beside each one.",
+                "lines": [
+                  "Hold F at a chest's lock to open it: a blueprint for the run (a spike trap, a stockpile or a lantern) or an extra boon pick at the next dawn.",
+                  "Get too close and the sleepers wake. Walk away and they go back to sleep."
+                ]
+              },
+              {
+                "heading": "Building",
+                "kind": "new",
+                "lead": "A new set of buildings: the watchtower, a timber palisade in three tiers, a waystone lantern, a lean-to store and a gate.",
+                "lines": [
+                  "Pieces go up as sites: hold F beside one and watch it rise. They come apart a piece at a time as they take damage, and burn.",
+                  "Survivors wait by small fires in the wilds each morning. Bring them home and they chop, quarry, build and man the towers.",
+                  "Kindle the hearth with embers to grow its light and your room to build. Pull stumps and break rocks to clear the land.",
+                  "Build on slopes: each piece stands on a level earth pad."
+                ]
+              },
+              {
+                "heading": "A run starts with only the hearth",
+                "kind": "changed",
+                "lead": "No towers, walls or stockpile to begin with: you build the keep yourselves. Bring what you gather to the hearth.",
+                "lines": [
+                  "Nights are much harder for it, and not rebalanced yet. Tell us how far you get."
+                ]
+              },
+              {
+                "heading": "The look",
+                "kind": "changed",
+                "lead": "Cloud shadows drift over the island by day, and everything sits in the ground with a soft shade at its feet.",
+                "lines": [
+                  "Tree crowns are green all through instead of grey in their shade.",
+                  "Fire burns in real flames, and the trodden earth round the hearth has pebbles you can see.",
+                  "The HUD takes half the room it did."
+                ]
+              }
+            ],
+            "title": "The keep grows",
+            "version": "0.4.0"
+          },
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "Grass",
+                "kind": "new",
+                "lead": "The island is a meadow now: thick, tall grass with drifts of small flowers, swaying as gusts roll in from the sea.",
+                "lines": [
+                  "It parts round your feet as you run and springs back behind you. Your friends' keepers and the Gloam leave their trails too.",
+                  "A Flare throws the grass back in a ring and burns a patch that glows with embers, stays burnt for a minute and slowly grows back.",
+                  "Shield Rush and dashes flatten a wake; a Springheels landing, a Snap Trap, a Challenge and sword swings push it aside.",
+                  "It stays short round the camp, so you can still see feet and the smallest Gloam by the fire."
+                ]
+              },
+              {
+                "heading": "The Flare",
+                "kind": "changed",
+                "lead": "The blast no longer leaves a glowing blob on the ground; the burning grass shows where it struck.",
+                "lines": [
+                  "Throw one into the sea and see what happens."
+                ]
+              }
+            ],
+            "title": "The meadow",
+            "version": "0.3.2"
+          },
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "Your character",
+                "kind": "new",
+                "lead": "Your keeper is the character you made on Hearth's Character page, and your friends see theirs.",
+                "lines": [
+                  "Your body, face, proportions, hair, brows, beard and colours, with your marks, freckles and stubble.",
+                  "At the muster you see yourself in every kit; the body buttons make way for \"Your character\".",
+                  "Change your character in Hearth while you play, and your keeper changes with it.",
+                  "No character yet? You keep the kit's own keeper, and still choose the body at the muster."
+                ]
+              },
+              {
+                "heading": "What a kit covers",
+                "kind": "changed",
+                "lead": "A kit's gear goes over your character, and covers what it covers.",
+                "lines": [
+                  "The Ranger's hood: a buzzcut underneath, whatever hair you picked.",
+                  "The Warden's helm: your hair and beard tucked under its band.",
+                  "Your saved character never changes: take the hood off by picking another kit."
+                ]
+              }
+            ],
+            "title": "Your own keeper",
+            "version": "0.3.1"
+          },
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "The Warden",
+                "kind": "new",
+                "lead": "A third keeper: the shield. It fights up close and pulls the Gloam onto itself. Press 3 at the muster.",
+                "lines": [
+                  "Sword: a chain of three swings that hits everything in reach in front of you; the third throws them back.",
+                  "Q Challenge: every walker within 12 m turns on you, and you take 40% less while it lasts.",
+                  "E Shield Wall: claws from the front do nothing, and whatever struck it is thrown back and dazed.",
+                  "Space Shield Rush: a charge that throws walkers aside.",
+                  "Bulwark: tough, and the pieces near you take less damage.",
+                  "Eight boons of its own, from Keen Edge to Gatekeeper's Oath."
+                ]
+              },
+              {
+                "heading": "Keepers heal",
+                "kind": "changed",
+                "lead": "Health comes back slowly and steadily while you're up, by day and by night.",
+                "lines": [
+                  "The Ranger and the Tinker heal 1 health a second, the Warden 2."
+                ]
+              }
+            ],
+            "title": "The shield at the fire",
+            "version": "0.3.0"
+          },
+          {
+            "date": "20 October 2026",
+            "sections": [
+              {
+                "heading": "The Tinker",
+                "kind": "new",
+                "lead": "A second keeper, and you choose yours at the muster before the first day.",
+                "lines": [
+                  "Crossbow: heavy bolts that pierce two enemies, spanned by hand between shots.",
+                  "Q sets a Sentry, a clockwork bolt-thrower. E lays a Snap Trap. Space leaps on Springheels, even over walls.",
+                  "Handy: the Tinker builds for less, works faster, and mends damaged pieces (hold F).",
+                  "Eight boons of its own, from Heavy Bolts to Twin Sentries.",
+                  "Everyone picks at once and sees each other's picks. Two keepers may take the same kit."
+                ]
+              },
+              {
+                "heading": "Expeditions",
+                "kind": "new",
+                "lead": "Reasons to leave the light by day.",
+                "lines": [
+                  "Old braziers to relight with embers: each grows the land, and the Gloam goes for it at night.",
+                  "Chop trees and quarry stone outside the light, and carry the load home. Towers cost stone.",
+                  "Drop a load and it stays as a pile you can pick up again.",
+                  "A compass in the top right shows the island, the sites and where the Gloam comes from. T tracks a site."
+                ]
+              },
+              {
+                "heading": "Boons",
+                "kind": "new",
+                "lead": "At dawn the team votes on a keep boon, and each keeper picks one of their own.",
+                "lines": [
+                  "A tie is drawn at random, the same for everyone.",
+                  "Tab opens the boon panel: every boon you hold, with its real numbers."
+                ]
+              },
+              {
+                "heading": "A new look",
+                "kind": "changed",
+                "lead": "The island, the fire and the keepers, redone.",
+                "lines": [
+                  "The hearth burns like a real fire, and gutters when it's hurt.",
+                  "Painted ground and props, a larger island with finer terrain, and a clear sea.",
+                  "Past the firelight, the night is dark fog and smoke.",
+                  "The keepers are new: Rangers and Tinkers, firelit, with an ink line, and you see them through walls.",
+                  "The keeper runs while shooting, aims with the upper body, draws a real bow, and flinches when hit.",
+                  "Flare has a cast, a flight and an impact. Moths fall when they die, and souls fly home to the fire.",
+                  "A new HUD around the hearth's crown, with icons rendered from the game's own models.",
+                  "Smoother edges (anti-aliasing; F2 changes it)."
+                ]
+              },
+              {
+                "heading": "Playing together",
+                "kind": "changed",
+                "lead": "Smoother co-op through a Hearth lobby.",
+                "lines": [
+                  "Join a game that's already playing: you watch until dawn, then your keeper joins.",
+                  "Close the game and press Playing in the lobby to come back to your own keeper."
+                ]
+              },
+              {
+                "heading": "Fixes and quality",
+                "kind": "fixed",
+                "lead": "The game opens borderless fullscreen, with its icon and a loading screen.",
+                "lines": [
+                  "F11 or Alt+Enter switches to a window.",
+                  "Shadows no longer flicker on moving characters, and enemies stand on the ground.",
+                  "Hold the right mouse button to take a piece down, instead of a single click."
+                ]
+              }
+            ],
+            "title": "Out past the firelight",
+            "version": "0.2.0"
+          }
+        ]
+      },
       "manifest": {
-        "sha256": "dceb29ed79834149c862855513c46a1a188e56875f406d6331b39930810d69ed",
-        "size": 5397,
-        "gz": 1401
+        "sha256": "238e117b1ab72d936f2eeafa0dd273910f07797e8790c4e26c97308944855fa4",
+        "size": 174438,
+        "gz": 36234
       },
       "platforms": {
         "windows": {
-          "files": 22,
-          "bytes": 12796640,
-          "gz": 4593493
+          "files": 672,
+          "bytes": 316287679,
+          "gz": 70447690
         }
       },
       "art": {

@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 12,
-  "published": "2026-10-21T10:27:22Z",
+  "seq": 13,
+  "published": "2026-10-21T16:27:42Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,57 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.4",
-      "build": "bd42ee7779322dda",
-      "published": "2026-10-21T10:27:22Z",
+      "version": "0.4.5",
+      "build": "c9db7bb9dba37b39",
+      "published": "2026-10-21T16:27:42Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "new",
+                "lead": "The water moves for real.",
+                "lines": [
+                  "A Flare in the sea punches a hole in the water and churns it white. Rings spread out from it, cross each other, bounce off the rocks and the shore, slow down over the shallows and break on the beach. The spray that falls back rings the water where it lands.",
+                  "Anyone wading in the surf leaves a wake.",
+                  "Surf runs up the beach and drains back every few seconds, with its foam line riding the water's edge. It leaves foam on the sand that slowly dissolves, and sand that stays dark and wet for a while.",
+                  "The sky's reflections on the water break into many small glints instead of a few soft blobs."
+                ]
+              },
+              {
+                "heading": "The night fog",
+                "kind": "new",
+                "lead": "The fog past the firelight has a real top.",
+                "lines": [
+                  "It drifts and billows a metre or more deep, so trees stand in it, and it glows warm near the fire, the braziers and the lanterns. Lit brazier paths stay clear of it.",
+                  "Keepers, hearthfolk and the Gloam stir it as they wade through, and the Emberkeeper's lantern lights it from inside.",
+                  "It takes far less of your graphics card than the fog it replaces."
+                ]
+              },
+              {
+                "heading": "Sound",
+                "kind": "new",
+                "lead": "Recorded sounds, heard from where they happen.",
+                "lines": [
+                  "The bow, arrow hits, the volley, the dash, the Flare from throw to blast, the Warden's sword, shield and war cry, both horns, the crackle of the hearth and every lit brazier, the day and the night, and footsteps on grass and bare earth.",
+                  "Sounds come from where they happen, and get quieter and more muffled further away."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "Rocks break, and the day is longer.",
+                "lines": [
+                  "Rocks shake with every blow, chunks fly off them, and they split apart in a cloud of dust when they break.",
+                  "The day lasts six minutes instead of four: more time to gather, build and explore before dusk."
+                ]
+              }
+            ],
+            "title": "The living sea",
+            "version": "0.4.5"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -413,15 +459,15 @@
         ]
       },
       "manifest": {
-        "sha256": "4b3a8372d7315d5029c82e7e8480d3c7c380c07d997720cb2d08ddc57092a58f",
-        "size": 171845,
-        "gz": 35700
+        "sha256": "238e117b1ab72d936f2eeafa0dd273910f07797e8790c4e26c97308944855fa4",
+        "size": 174438,
+        "gz": 36234
       },
       "platforms": {
         "windows": {
-          "files": 663,
-          "bytes": 302877691,
-          "gz": 59379622
+          "files": 672,
+          "bytes": 316287679,
+          "gz": 70447690
         }
       },
       "art": {
