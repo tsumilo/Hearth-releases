@@ -106,5 +106,23 @@
         "gz": 47032
       }
     ]
+  },
+  {
+    "id": "kindle_and_keep",
+    "version": "0.4.3",
+    "build": "9b65073e6596281b",
+    "published": "2026-10-21T09:02:49Z",
+    "manifest": {
+      "sha256": "4d7da32f930a907d3b9ac45fc9c501f3fe412a2debc6caa19a2dbfee6227dd98",
+      "size": 164421,
+      "gz": 34259
+    },
+    "art": [
+      {
+        "sha256": "01514fc2311bc87c1a8c4ec083af2836240219d02741f6703e53eff17e820881",
+        "size": 47013,
+        "gz": 47032
+      }
+    ]
   }
 ]

@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 10,
-  "published": "2026-10-21T08:48:14Z",
+  "seq": 11,
+  "published": "2026-10-21T09:02:49Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,26 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.2",
-      "build": "09bcc5a0f3e3cd7d",
-      "published": "2026-10-21T08:48:14Z",
+      "version": "0.4.3",
+      "build": "9b65073e6596281b",
+      "published": "2026-10-21T09:02:49Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "The menu fits every screen.",
+                "lines": [
+                  "On screens narrower than widescreen (16:10, 4:3) the settings ran off the right edge. They now fit, with the controls a little narrower."
+                ]
+              }
+            ],
+            "title": "Room for the menu",
+            "version": "0.4.3"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -371,15 +386,15 @@
         ]
       },
       "manifest": {
-        "sha256": "5dc9e0d0c5de3e8e3d28976d377f0420a0213ffbbf8623467b79df29aa636203",
+        "sha256": "4d7da32f930a907d3b9ac45fc9c501f3fe412a2debc6caa19a2dbfee6227dd98",
         "size": 164421,
-        "gz": 34257
+        "gz": 34259
       },
       "platforms": {
         "windows": {
           "files": 635,
-          "bytes": 302369644,
-          "gz": 59278844
+          "bytes": 302370668,
+          "gz": 59278758
         }
       },
       "art": {
