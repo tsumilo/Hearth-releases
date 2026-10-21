@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 7,
-  "published": "2026-10-20T15:11:49Z",
+  "seq": 8,
+  "published": "2026-10-21T00:09:45Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,84 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.3.2",
-      "build": "13c2a1b96999e483",
-      "published": "2026-10-20T15:11:49Z",
+      "version": "0.4.0",
+      "build": "8f7dcac9f51e1340",
+      "published": "2026-10-21T00:09:45Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "The Emberkeeper",
+                "kind": "new",
+                "lead": "A fourth keeper: a hooded healer with a lantern, who keeps the others going.",
+                "lines": [
+                  "Cinders in bursts of four; Q turns the wick between Warmth (keepers in its light heal) and Draft (they run faster).",
+                  "E stokes the lantern for a stronger gift; Space throws the walkers in front back and dazes them.",
+                  "Eight boons of its own. Press 4 at the muster to pick it."
+                ]
+              },
+              {
+                "heading": "The Wick-Eater",
+                "kind": "new",
+                "lead": "The first boss comes on night 10: a lantern centipede that keeps to the dark and eats your light.",
+                "lines": [
+                  "Out in the dark it's smoke that nothing hurts. Light gives it a body: the fire's, a brazier's, a Flare's.",
+                  "It eats lit braziers, lunges at keepers who stray out, and raids the hearth. At half health it gulps the fire's light."
+                ]
+              },
+              {
+                "heading": "A bigger island",
+                "kind": "new",
+                "lead": "The island is twice as wide: forest all the way to a coast 130 m out.",
+                "lines": [
+                  "Nine old braziers, six quarries and five ruins to find. The Gloam walk in from further out.",
+                  "New trees and rocks that sway in the wind and bend as you push through them."
+                ]
+              },
+              {
+                "heading": "Ruins and chests",
+                "kind": "new",
+                "lead": "The old watch's ruins hold chests, and a few gloamlings doze beside each one.",
+                "lines": [
+                  "Hold F at a chest's lock to open it: a blueprint for the run (a spike trap, a stockpile or a lantern) or an extra boon pick at the next dawn.",
+                  "Get too close and the sleepers wake. Walk away and they go back to sleep."
+                ]
+              },
+              {
+                "heading": "Building",
+                "kind": "new",
+                "lead": "A new set of buildings: the watchtower, a timber palisade in three tiers, a waystone lantern, a lean-to store and a gate.",
+                "lines": [
+                  "Pieces go up as sites: hold F beside one and watch it rise. They come apart a piece at a time as they take damage, and burn.",
+                  "Survivors wait by small fires in the wilds each morning. Bring them home and they chop, quarry, build and man the towers.",
+                  "Kindle the hearth with embers to grow its light and your room to build. Pull stumps and break rocks to clear the land.",
+                  "Build on slopes: each piece stands on a level earth pad."
+                ]
+              },
+              {
+                "heading": "A run starts with only the hearth",
+                "kind": "changed",
+                "lead": "No towers, walls or stockpile to begin with: you build the keep yourselves. Bring what you gather to the hearth.",
+                "lines": [
+                  "Nights are much harder for it, and not rebalanced yet. Tell us how far you get."
+                ]
+              },
+              {
+                "heading": "The look",
+                "kind": "changed",
+                "lead": "Cloud shadows drift over the island by day, and everything sits in the ground with a soft shade at its feet.",
+                "lines": [
+                  "Tree crowns are green all through instead of grey in their shade.",
+                  "Fire burns in real flames, and the trodden earth round the hearth has pebbles you can see.",
+                  "The HUD takes half the room it did."
+                ]
+              }
+            ],
+            "title": "The keep grows",
+            "version": "0.4.0"
+          },
           {
             "date": "20 October 2026",
             "sections": [
@@ -256,15 +329,15 @@
         ]
       },
       "manifest": {
-        "sha256": "1300fddf4cc3c308d541287e98ba0d22d181afd2dd8fd0e468553459b63b8430",
-        "size": 99526,
-        "gz": 21861
+        "sha256": "cfd5631de3587d524ccb69aa83ac2185f6f41d4106eccfa0b68983f4522a539d",
+        "size": 164421,
+        "gz": 34250
       },
       "platforms": {
         "windows": {
-          "files": 404,
-          "bytes": 159576971,
-          "gz": 33831314
+          "files": 635,
+          "bytes": 302163352,
+          "gz": 59230384
         }
       },
       "art": {
