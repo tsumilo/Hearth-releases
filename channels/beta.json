@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 8,
-  "published": "2026-10-21T00:09:45Z",
+  "seq": 9,
+  "published": "2026-10-21T00:31:39Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,27 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.0",
-      "build": "8f7dcac9f51e1340",
-      "published": "2026-10-21T00:09:45Z",
+      "version": "0.4.1",
+      "build": "02095a0c6b121e03",
+      "published": "2026-10-21T00:31:39Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "Two things that looked wrong.",
+                "lines": [
+                  "The oaks' leaves no longer go black on the side away from the sun: the light comes through them.",
+                  "The number in a building site's progress ring sits in the middle of the ring."
+                ]
+              }
+            ],
+            "title": "Leaves in the light",
+            "version": "0.4.1"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -329,15 +345,15 @@
         ]
       },
       "manifest": {
-        "sha256": "cfd5631de3587d524ccb69aa83ac2185f6f41d4106eccfa0b68983f4522a539d",
+        "sha256": "984c753db03bff50709c24eba666997bc2e9e2bd1182bb0caf7027779d25e166",
         "size": 164421,
         "gz": 34250
       },
       "platforms": {
         "windows": {
           "files": 635,
-          "bytes": 302163352,
-          "gz": 59230384
+          "bytes": 302162528,
+          "gz": 59231595
         }
       },
       "art": {
