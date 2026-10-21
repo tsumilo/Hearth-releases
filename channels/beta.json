@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 11,
-  "published": "2026-10-21T09:02:49Z",
+  "seq": 12,
+  "published": "2026-10-21T10:27:22Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,38 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.3",
-      "build": "9b65073e6596281b",
-      "published": "2026-10-21T09:02:49Z",
+      "version": "0.4.4",
+      "build": "bd42ee7779322dda",
+      "published": "2026-10-21T10:27:22Z",
       "notes": {
         "changelog": [
+          {
+            "date": "21 October 2026",
+            "sections": [
+              {
+                "heading": "Island life",
+                "kind": "new",
+                "lead": "Birds, butterflies and falling leaves by day.",
+                "lines": [
+                  "Sparrows, chaffinches, robins and blackbirds land on the bare earth round the hearth and the buildings, the beach, rocks and treetops. They hop, peck, and take off when anyone comes near. Through dusk they go to roost in the trees, and they come back at dawn.",
+                  "Now and then a flock of starlings circles overhead before moving on.",
+                  "Butterflies flutter over the flowers, stop to feed, sometimes dance up in pairs, and settle into the grass before evening.",
+                  "Leaves fall from the oaks, swinging and tumbling down, and blow with the same gusts that ripple the grass.",
+                  "Abilities stir them up: birds flush, butterflies scatter, and blasts throw leaves about and shake more from the trees."
+                ]
+              },
+              {
+                "heading": "Changes",
+                "kind": "changed",
+                "lead": "The Ranger shoots real arrows.",
+                "lines": [
+                  "Arrows fly as arrows, with a steel head and red fletching, instead of glowing streaks. They're drawn a little larger than life so you can follow them."
+                ]
+              }
+            ],
+            "title": "Wings over the meadow",
+            "version": "0.4.4"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -386,15 +413,15 @@
         ]
       },
       "manifest": {
-        "sha256": "4d7da32f930a907d3b9ac45fc9c501f3fe412a2debc6caa19a2dbfee6227dd98",
-        "size": 164421,
-        "gz": 34259
+        "sha256": "4b3a8372d7315d5029c82e7e8480d3c7c380c07d997720cb2d08ddc57092a58f",
+        "size": 171845,
+        "gz": 35700
       },
       "platforms": {
         "windows": {
-          "files": 635,
-          "bytes": 302370668,
-          "gz": 59278758
+          "files": 663,
+          "bytes": 302877691,
+          "gz": 59379622
         }
       },
       "art": {
