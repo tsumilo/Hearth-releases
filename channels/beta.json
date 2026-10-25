@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 15,
-  "published": "2026-10-21T20:05:05Z",
+  "seq": 16,
+  "published": "2026-10-25T22:18:52Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,117 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.4.6",
-      "build": "f9e2f8e514e5cf4d",
-      "published": "2026-10-21T20:05:05Z",
+      "version": "0.5.0",
+      "build": "fa8ab878f31ce2c1",
+      "published": "2026-10-25T22:18:52Z",
       "notes": {
         "changelog": [
+          {
+            "date": "25 October 2026",
+            "sections": [
+              {
+                "heading": "The Descent",
+                "kind": "new",
+                "lead": "Under the Sunken Door are the Old Watch Cellars, and the Smother at the bottom.",
+                "lines": [
+                  "From the second day, the Sunken Door opens once each day. Every keeper stands in the ring in front of it and holds F, and you all go down together.",
+                  "The cellars are three rooms dealt from four, and each room seals until you finish what it asks. At the bottom is the Smother, which can only be hurt once its chamber's four sconces are lit again. The well stair takes you back up.",
+                  "The island waits while you're below. If everyone falls, you come up at dusk with nothing. Each Descent you win makes the next one deeper and harder."
+                ]
+              },
+              {
+                "heading": "Relics",
+                "kind": "new",
+                "lead": "The only way to get relics is to beat the Smother.",
+                "lines": [
+                  "When it falls, an ember bloom opens over the well and offers each keeper three relics. Click one, then click again or press F to take it. You can also use 1, 2 and 3, or 4 to turn the find down.",
+                  "There are 42 relics, each with its own look, one for each ability and one for your trait. A new one replaces the one in its slot, and a new run starts without any.",
+                  "Porter's Yoke fits any keeper: you carry two loads at once, but you're slower while carrying them."
+                ]
+              },
+              {
+                "heading": "Weather",
+                "kind": "new",
+                "lead": "Clear days, clouds, rain and thunderstorms come and go.",
+                "lines": [
+                  "Mornings, afternoons and nights each have their own weather. It's mostly clear, rain passes quickly, and every so often a storm rolls in with lightning.",
+                  "Rain soaks whatever is out in the open, darkens it and makes it shine. Puddles gather in hollows and ripple as the drops land, then dry up after the rain stops."
+                ]
+              },
+              {
+                "heading": "Building",
+                "kind": "changed",
+                "lead": "A build wheel, walls that join up, paths and lamps.",
+                "lines": [
+                  "Hold B to open the build wheel, point at a piece and let go. Tap B to put the piece away. The number keys no longer pick pieces.",
+                  "Walls go on a grid of their own, with posts they share. Press and drag to lay a whole run, pull to the side to turn a corner, and R to turn the corner the other way or make a box. Corners and crossings close up by themselves.",
+                  "Paths are on the wheel. Drag to lay a lane in packed earth (free), gravel, cobbles, flagstones or boardwalk. Keepers and hearthfolk walk faster on them, hearthfolk keep to them, and a lane that reaches a gate carries on through it.",
+                  "The braziers are gone. Find the lantern blueprint in the ruins, and you can put a lamp up anywhere, in the light or in the dark. It lights the ground around it for building. The Gloam go for lamps.",
+                  "Every keeper can mend by day: hold F by a damaged piece. The Tinker mends at any hour, and hearthfolk can be set to mend too.",
+                  "Click a built piece to select it, and R turns it.",
+                  "The hearth burns as a beacon and grows as you kindle it. Quarries are cut in steps, and come small, middling or rich."
+                ]
+              },
+              {
+                "heading": "The Gloam",
+                "kind": "new",
+                "lead": "New kinds, stronger ones, and a new look for all of them.",
+                "lines": [
+                  "Cinder-ticks from the second night, heralds from the third, lobbers from the fourth, shades from the sixth and mire-hulks from the eighth.",
+                  "From the fifth night, some Gloam are Gloam-touched: warded, swift, brood or wick-hungry. They wear a violet crown.",
+                  "Shades live in the fog. They drift through it, sense keepers inside it and haunt the closest one.",
+                  "Every kind has been reshaped, and they move like creatures, not puppets. Their landings, slams and howls send a wave through the ground."
+                ]
+              },
+              {
+                "heading": "Keepers",
+                "kind": "changed",
+                "lead": "Swimming, calling the night, and a clearer HUD.",
+                "lines": [
+                  "Keepers can wade into the sea and swim. A breath bar shows while you swim, and if it runs out you drown and get up again at the fire.",
+                  "Press N at the hearth by day to call the night. Once everyone has, dusk comes in 20 seconds.",
+                  "Point at an ability on your kit to see what it does, with its current numbers and what's changed them.",
+                  "Nameplates show a small pip for each effect on a creature: gold for yours, violet for the Gloam's.",
+                  "The mouse cursor is now an ember ring, which changes shape when you aim, point at an enemy, are out of reach or are building.",
+                  "The Ranger draws its bow like an archer and throws its Flare. The Emberkeeper's light is a cloud of wisps. Axes and picks sit in the hand.",
+                  "Choosing your keeper happens a little further back from the fire, with the four keepers standing in an arc."
+                ]
+              },
+              {
+                "heading": "The island",
+                "kind": "changed",
+                "lead": "New ground, undergrowth, sounds, and a sea that goes on.",
+                "lines": [
+                  "New painted ground with real relief, soft tufted grass, and bracken, hazel, wild rose and foxglove among the trees.",
+                  "Plants and trees bend as you walk through them and when blasts hit them, then spring back. The wind comes in gusts.",
+                  "The oaks' leaves are lit as one crown, not as a scatter of dark and light spots.",
+                  "Every sound is a recording now, most with several takes so they don't repeat.",
+                  "The gate, the ruins and the quay have new looks, and the sea carries on past the island into a far mist.",
+                  "Every icon has been redrawn."
+                ]
+              },
+              {
+                "heading": "Settings",
+                "kind": "changed",
+                "lead": "Smoother edges by default.",
+                "lines": [
+                  "Smooth edges now defaults to TAA, which smooths edges over several frames and keeps grass and leaves from shimmering. Off, 2x, 4x and 8x are still there.",
+                  "The Ultra preset has been removed. High is now the top setting.",
+                  "The Controls page lists the build wheel and calling the night."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "The ring under the hearth.",
+                "lines": [
+                  "There's no longer a glowing ring under the hearth while you choose your keeper."
+                ]
+              }
+            ],
+            "title": "Into the Descent",
+            "version": "0.5.0"
+          },
           {
             "date": "21 October 2026",
             "sections": [
@@ -483,15 +589,15 @@
         ]
       },
       "manifest": {
-        "sha256": "fe57474ec48a2a967d8a87fc437ea6a371fe2c18cc9e63fe45e4231cdd7a63fc",
-        "size": 174438,
-        "gz": 36234
+        "sha256": "0fa1c78c7586a1fc53b0d210e9d27aeb81cf94728db82983398e38eab80872e8",
+        "size": 397407,
+        "gz": 79763
       },
       "platforms": {
         "windows": {
-          "files": 672,
-          "bytes": 316381375,
-          "gz": 70559527
+          "files": 1496,
+          "bytes": 583699447,
+          "gz": 166266555
         }
       },
       "art": {
