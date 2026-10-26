@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 20,
-  "published": "2026-10-26T11:03:41Z",
+  "seq": 22,
+  "published": "2026-10-26T11:21:00Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,30 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.3",
-      "build": "1a0dd7be45260532",
-      "published": "2026-10-26T11:03:41Z",
+      "version": "0.5.4",
+      "build": "f135d35952674ee4",
+      "published": "2026-10-26T11:21:00Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The night",
+                "kind": "new",
+                "lead": "The night no longer comes in off the sea. It comes out of three brood mounds out on the island, near the shore.",
+                "lines": [
+                  "Each night the Gloam crawl out of the nests' maws, and the night fog wells up from them.",
+                  "A nest can only be hurt at night. By day it sleeps and shrugs off every blow.",
+                  "Break one and its heart bursts: its hoard of embers flies home to the hearth, its fog fades and it leaves an ash scar.",
+                  "Break all three and the island is cleared: nothing comes at night any more.",
+                  "No trees, rocks or bushes grow on a nest's ground, so you can see it and get at it."
+                ]
+              }
+            ],
+            "title": "The Gloam's nests",
+            "version": "0.5.4"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -661,15 +680,15 @@
         ]
       },
       "manifest": {
-        "sha256": "a9aea181a66de964c54530fe43b91697d4fe40531c5799cd898e614df23d66e7",
+        "sha256": "bc0c7a2b1ab892ad97363d9ad0056ba56fc7fcbb21870b7674da3c677aeae5e4",
         "size": 405746,
-        "gz": 81488
+        "gz": 81494
       },
       "platforms": {
         "windows": {
           "files": 1527,
-          "bytes": 647237398,
-          "gz": 177900141
+          "bytes": 647252634,
+          "gz": 177906754
         }
       },
       "art": {
@@ -681,9 +700,9 @@
         },
         "hero": {
           "file": "hero.jpg",
-          "sha256": "3827ed1e9c4b47e59172edbde6aa930c369059506db93d92a6821b8d79adc637",
-          "size": 351014,
-          "gz": 350487
+          "sha256": "7df6ae3fed0f1303e80f5247c94e1155e3d30455b1d8d260ec247dddbebce5fa",
+          "size": 843505,
+          "gz": 841951
         },
         "icon": {
           "file": "icon.png",
