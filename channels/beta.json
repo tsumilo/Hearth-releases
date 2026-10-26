@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 17,
-  "published": "2026-10-25T23:20:14Z",
+  "seq": 18,
+  "published": "2026-10-26T03:02:59Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,50 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.0",
-      "build": "fa8ab878f31ce2c1",
-      "published": "2026-10-25T22:18:52Z",
+      "version": "0.5.1",
+      "build": "c87b5bfe890871c0",
+      "published": "2026-10-26T03:02:59Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "changed",
+                "lead": "The sea is now a real wind-driven ocean, and it changes with the weather.",
+                "lines": [
+                  "On a clear day it's a gentle chop over clear water: you can see the sand through the shallows, and the sky and clouds in the waves. In rain the waves lengthen, and a storm brings a long, steep sea with its crests breaking white.",
+                  "Foam forms where waves break and trails behind them as it fades. The foam line along the beach is the same as before.",
+                  "Boats ride the waves now. They heel, pitch and bury their bows in a storm instead of sailing flat across it.",
+                  "Calm water moves more slowly, so a quiet sea looks quiet.",
+                  "Gone: the grey patches in the shallows and on open water, and the straight streaks across the sea in a storm."
+                ]
+              },
+              {
+                "heading": "The Descent",
+                "kind": "changed",
+                "lead": "The cellars below the Sunken Door are overgrown, and daylight reaches one of them.",
+                "lines": [
+                  "Each room's floor is laid as real flagstones with a carved flame frieze, its walls carved in arches, and ivy, hanging vines and ferns grow over it all.",
+                  "Lava flows slowly in the chasm under the long bridge, and the way out up the well stair is lit by pale daylight.",
+                  "The vigil has a hole in its roof: sunlight falls through it onto the ring in a shaft of light, with dust drifting in it."
+                ]
+              },
+              {
+                "heading": "Light and colour",
+                "kind": "changed",
+                "lead": "The picture has a new grade.",
+                "lines": [
+                  "Shadows go cooler and highlights warmer, most of all at night, so the moonlit dark and the firelight stand apart.",
+                  "The firelit ground no longer glares, and dim land is easier to read.",
+                  "The fire and the sun tint what stands near what they light, and in calm water you can see the shore, the quay, boats and keepers reflected."
+                ]
+              }
+            ],
+            "title": "A living sea",
+            "version": "0.5.1"
+          },
           {
             "date": "25 October 2026",
             "sections": [
@@ -589,15 +628,15 @@
         ]
       },
       "manifest": {
-        "sha256": "0fa1c78c7586a1fc53b0d210e9d27aeb81cf94728db82983398e38eab80872e8",
-        "size": 397407,
-        "gz": 79763
+        "sha256": "9b895926cad97ee4c29497d9305a907f51fca0f8f9aace0af81bf404337bc3ff",
+        "size": 405480,
+        "gz": 81441
       },
       "platforms": {
         "windows": {
-          "files": 1496,
-          "bytes": 583699447,
-          "gz": 166266555
+          "files": 1526,
+          "bytes": 647202854,
+          "gz": 177892110
         }
       },
       "art": {
