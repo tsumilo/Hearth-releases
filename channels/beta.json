@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 22,
-  "published": "2026-10-26T11:21:00Z",
+  "seq": 23,
+  "published": "2026-10-26T11:46:19Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,28 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.4",
-      "build": "f135d35952674ee4",
-      "published": "2026-10-26T11:21:00Z",
+      "version": "0.5.5",
+      "build": "9469d9865d001939",
+      "published": "2026-10-26T11:46:19Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The codex",
+                "kind": "new",
+                "lead": "Every relic you take now goes in your codex, which follows you to any computer.",
+                "lines": [
+                  "The first time you take a relic, the codex keeps where it came from and on which day.",
+                  "Each run counts the relics you carried in it and the longest night you held with them.",
+                  "Your codex shows as a relic wall on your Kindle & Keep page of your Hearth profile, for you and your friends."
+                ]
+              }
+            ],
+            "title": "The relic codex",
+            "version": "0.5.5"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -680,15 +697,15 @@
         ]
       },
       "manifest": {
-        "sha256": "bc0c7a2b1ab892ad97363d9ad0056ba56fc7fcbb21870b7674da3c677aeae5e4",
-        "size": 405746,
-        "gz": 81494
+        "sha256": "21f1bb142a3101a4cd86271ebd9e7f21c25b875597612fec56c47d853ebd6620",
+        "size": 406451,
+        "gz": 81705
       },
       "platforms": {
         "windows": {
-          "files": 1527,
-          "bytes": 647252634,
-          "gz": 177906754
+          "files": 1530,
+          "bytes": 647736364,
+          "gz": 178328521
         }
       },
       "art": {
