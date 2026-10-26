@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 19,
-  "published": "2026-10-26T03:13:14Z",
+  "seq": 20,
+  "published": "2026-10-26T11:03:41Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,29 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.2",
-      "build": "2f63aab85ce4c866",
-      "published": "2026-10-26T03:13:14Z",
+      "version": "0.5.3",
+      "build": "1a0dd7be45260532",
+      "published": "2026-10-26T11:03:41Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "changed",
+                "lead": "The shore now moves with the waves you see coming in, and the sea is calmer in every weather.",
+                "lines": [
+                  "Waves roll in from the open sea, slow down over the shallows, bend toward the beach and run up the sand. Each wash up the beach is a wave you watched arrive.",
+                  "The waves reach all the way to the shore. The flat, calm band in front of the beach is gone.",
+                  "Everything moves more slowly: a calm sea rolls gently, and a storm is heavy rather than frantic.",
+                  "Boats ride the waves into the shallows too."
+                ]
+              }
+            ],
+            "title": "Waves come ashore",
+            "version": "0.5.3"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -643,15 +661,15 @@
         ]
       },
       "manifest": {
-        "sha256": "ed381acf234aec2fbda53d5165798c6bf8fd0c36123f860e7ae373521e2506d9",
+        "sha256": "a9aea181a66de964c54530fe43b91697d4fe40531c5799cd898e614df23d66e7",
         "size": 405746,
         "gz": 81488
       },
       "platforms": {
         "windows": {
           "files": 1527,
-          "bytes": 647223566,
-          "gz": 177897395
+          "bytes": 647237398,
+          "gz": 177900141
         }
       },
       "art": {
