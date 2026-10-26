@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 23,
-  "published": "2026-10-26T11:46:19Z",
+  "seq": 24,
+  "published": "2026-10-26T14:05:12Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,34 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.5",
-      "build": "9469d9865d001939",
-      "published": "2026-10-26T11:46:19Z",
+      "version": "0.5.6",
+      "build": "14a88dae260874ca",
+      "published": "2026-10-26T14:05:12Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The HUD",
+                "kind": "changed",
+                "lead": "The medallion at the top of the screen shows the hearth as it stands now: the high beacon's iron bowl with its gold rim and crown points.",
+                "lines": [
+                  "Its fire burns live in the bowl, tall when the hearth is strong and low when it's hurt, with embers lifting off it.",
+                  "When the hearth's fire is out, so is the medallion's."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lines": [
+                  "0.5.5's medallion showed a bare flame with no hearth behind it."
+                ]
+              }
+            ],
+            "title": "The hearth's crown",
+            "version": "0.5.6"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -697,15 +720,15 @@
         ]
       },
       "manifest": {
-        "sha256": "21f1bb142a3101a4cd86271ebd9e7f21c25b875597612fec56c47d853ebd6620",
+        "sha256": "3b560079c7aabe3abe5a0932f9f1cad47f9e6f74194cf9aa09108813d05c18da",
         "size": 406451,
-        "gz": 81705
+        "gz": 81702
       },
       "platforms": {
         "windows": {
           "files": 1530,
-          "bytes": 647736364,
-          "gz": 178328521
+          "bytes": 647740089,
+          "gz": 178328490
         }
       },
       "art": {
@@ -717,9 +740,9 @@
         },
         "hero": {
           "file": "hero.jpg",
-          "sha256": "7df6ae3fed0f1303e80f5247c94e1155e3d30455b1d8d260ec247dddbebce5fa",
-          "size": 843505,
-          "gz": 841951
+          "sha256": "3827ed1e9c4b47e59172edbde6aa930c369059506db93d92a6821b8d79adc637",
+          "size": 351014,
+          "gz": 350487
         },
         "icon": {
           "file": "icon.png",
