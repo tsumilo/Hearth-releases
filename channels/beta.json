@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 18,
-  "published": "2026-10-26T03:02:59Z",
+  "seq": 19,
+  "published": "2026-10-26T03:13:14Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,26 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.1",
-      "build": "c87b5bfe890871c0",
-      "published": "2026-10-26T03:02:59Z",
+      "version": "0.5.2",
+      "build": "2f63aab85ce4c866",
+      "published": "2026-10-26T03:13:14Z",
       "notes": {
         "changelog": [
+          {
+            "date": "26 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "fixed",
+                "lead": "0.5.1 shipped without its new waves: the sea stayed flat. They're in now.",
+                "lines": [
+                  "The wind-driven waves, the foam on breaking crests and the boats riding the swell from 0.5.1's notes are all here in 0.5.2."
+                ]
+              }
+            ],
+            "title": "The waves, for real",
+            "version": "0.5.2"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -628,15 +643,15 @@
         ]
       },
       "manifest": {
-        "sha256": "9b895926cad97ee4c29497d9305a907f51fca0f8f9aace0af81bf404337bc3ff",
-        "size": 405480,
-        "gz": 81441
+        "sha256": "ed381acf234aec2fbda53d5165798c6bf8fd0c36123f860e7ae373521e2506d9",
+        "size": 405746,
+        "gz": 81488
       },
       "platforms": {
         "windows": {
-          "files": 1526,
-          "bytes": 647202854,
-          "gz": 177892110
+          "files": 1527,
+          "bytes": 647223566,
+          "gz": 177897395
         }
       },
       "art": {
