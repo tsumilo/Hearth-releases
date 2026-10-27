@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 24,
-  "published": "2026-10-26T14:05:12Z",
+  "seq": 25,
+  "published": "2026-10-27T08:01:41Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,57 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.6",
-      "build": "14a88dae260874ca",
-      "published": "2026-10-26T14:05:12Z",
+      "version": "0.5.7",
+      "build": "45327befab26305f",
+      "published": "2026-10-27T08:01:41Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "The Wreckers",
+                "kind": "new",
+                "lead": "Every ruin is held by day by a crew of wreckers, two to five depending on how many keepers there are, guarding its chest.",
+                "lines": [
+                  "Four of them mirror the keepers: the Cutthroat (the Warden's), the Longshot (the Ranger's), the Rigger (the Tinker's) and the Hedge-witch (the Emberkeeper's), each with its keeper's weapon and two of its abilities in a lesser form.",
+                  "They sit at camp until a shout wakes them, keep to their roles, fall back to the witch, stay near their ruin and row off at dusk.",
+                  "Their blows can knock a keeper down."
+                ]
+              },
+              {
+                "heading": "Talking together",
+                "kind": "new",
+                "lead": "Pings, chat and voice for playing with friends. It needs Hearth 0.1.14.",
+                "lines": [
+                  "Tap G to ping what's under the cursor; hold G for the ping wheel (its middle drops what you carry).",
+                  "Enter opens the lobby's chat, the same one as in Hearth: whispers, /r, /mute, and Hearth's own emoji.",
+                  "Party voice in lobbies, run by Hearth; a keeper's nameplate glows while they talk.",
+                  "Shift+Tab opens Hearth's overlay over the game: friends, messages, invites and the lobby's voice."
+                ]
+              },
+              {
+                "heading": "Building and hearthfolk",
+                "kind": "changed",
+                "lines": [
+                  "A damaged piece shows a health line that fills as it's mended, and a site a gold line of how far it's built, in place of the rings and labels. The F prompt says HOLD TO MEND.",
+                  "Hearthfolk with nothing to do by day find work of their own: mending first, then building, then stone, then timber. Work you give them they keep to.",
+                  "A tower placed by the walls slots into their line: the posts under it give way, and a wall under it is taken down and refunded.",
+                  "Shades wander the fog from the first night."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lines": [
+                  "A post never breaks on its own any more: it goes with the last wall or gate on it, so a broken post no longer leaves a hole nothing can fill.",
+                  "The bounced light is gone: it drew rings round lights."
+                ]
+              }
+            ],
+            "title": "The Wreckers",
+            "version": "0.5.7"
+          },
           {
             "date": "26 October 2026",
             "sections": [
@@ -720,15 +766,15 @@
         ]
       },
       "manifest": {
-        "sha256": "3b560079c7aabe3abe5a0932f9f1cad47f9e6f74194cf9aa09108813d05c18da",
-        "size": 406451,
-        "gz": 81702
+        "sha256": "6e75fb4d120ff67edf7d24338d6605d0ae62ab2e41c4dfb09e5a44557bcacdf6",
+        "size": 430176,
+        "gz": 86382
       },
       "platforms": {
         "windows": {
-          "files": 1530,
-          "bytes": 647740089,
-          "gz": 178328490
+          "files": 1619,
+          "bytes": 738278833,
+          "gz": 189429719
         }
       },
       "art": {
