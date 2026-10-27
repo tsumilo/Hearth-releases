@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 29,
-  "published": "2026-10-27T17:21:56Z",
+  "seq": 30,
+  "published": "2026-10-27T19:36:39Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,42 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.10",
-      "build": "3dc3db85c91de067",
-      "published": "2026-10-27T17:21:56Z",
+      "version": "0.5.11",
+      "build": "99bfbefa65aa5d71",
+      "published": "2026-10-27T19:36:39Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "Low, Medium and High",
+                "kind": "new",
+                "lead": "For graphics cards a few years old: the Graphics page (Esc) now sets everything at once.",
+                "lines": [
+                  "Low draws the world at 75% of your screen and scales it up, with softer shadows and the costliest effects off. Medium draws it at 85% and keeps the light shafts and the light that adapts. High is the game as before. The HUD is always drawn at your screen's own size, sharp.",
+                  "Each piece has its own switch too: render scale, fine shadows, soft shade where things meet, light shafts, light that adapts and sea reflections.",
+                  "If you chose Low before, choose it again: it does more now."
+                ]
+              },
+              {
+                "heading": "Faster for everyone",
+                "kind": "changed",
+                "lines": [
+                  "Trees and bushes are drawn faster: each leaf you see is lit once, no longer once for every leaf behind it too. The same picture, about an eighth faster at the fire and a sixth with the camera pulled back."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lines": [
+                  "The game's log now says how long each frame took on the processor and on the graphics card. It used to count waiting for the screen as work, which made a smooth game look slow."
+                ]
+              }
+            ],
+            "title": "Easier on older graphics cards",
+            "version": "0.5.11"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -872,15 +903,15 @@
         ]
       },
       "manifest": {
-        "sha256": "2ec965ebf80207d7f23f349bb2a1cf2fad35fc9b595954e94a0088280240f997",
+        "sha256": "df5ff9c3b3f8e4737331ec65e7c27f829cb3f70a68076d98f58073211002881f",
         "size": 475189,
-        "gz": 95510
+        "gz": 95509
       },
       "platforms": {
         "windows": {
           "files": 1788,
-          "bytes": 869938041,
-          "gz": 224032666
+          "bytes": 870270150,
+          "gz": 224098748
         }
       },
       "art": {
