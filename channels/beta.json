@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 25,
-  "published": "2026-10-27T08:01:41Z",
+  "seq": 26,
+  "published": "2026-10-27T13:26:05Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,48 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.7",
-      "build": "45327befab26305f",
-      "published": "2026-10-27T08:01:41Z",
+      "version": "0.5.8",
+      "build": "82236a4609a8b34e",
+      "published": "2026-10-27T13:26:05Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "Cinderfell",
+                "kind": "new",
+                "lead": "A second island lies about 900 m west of Gleed, across the open sea: Cinderfell, the burnt isle. Take a smack and sail west. Nothing lives there yet; this is its first look.",
+                "lines": [
+                  "A broken cone with a lava lake in its caldera, five steaming vents round its flanks, and a river of lava running down into the sea under clouds of steam.",
+                  "Grey ash over most of the land, black sand on the beaches, basalt cliffs, and groves of burnt trunks.",
+                  "Embers rise off the lava and the vents, ash falls through the air, and the light goes grey and veiled as you come in from the sea. At night the lava lights it."
+                ]
+              },
+              {
+                "heading": "Walls to measure",
+                "kind": "new",
+                "lead": "A run of wall is as long as you drag it, in whole metres, paid for by the metre.",
+                "lines": [
+                  "Its ends snap to a post, flush to a building's face, or onto another wall's line.",
+                  "A run through a tower, lamp or longhouse stops at its faces and carries on beyond; a tower placed onto walls cuts them back to its faces.",
+                  "A click still lays a 4 m section. The right button with a piece in hand puts it away and takes nothing down."
+                ]
+              },
+              {
+                "heading": "A clearer picture",
+                "kind": "changed",
+                "lines": [
+                  "Depth of field is gone, and the Soft focus setting with it.",
+                  "Zooming out no longer hazes the whole view.",
+                  "The sea past the island has a seabed that slopes away to the deep: no more hard line where the island's ground ended, and deep water stays sharp.",
+                  "Settings > Display: choose the monitor the game shows on."
+                ]
+              }
+            ],
+            "title": "Cinderfell",
+            "version": "0.5.8"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -766,15 +803,15 @@
         ]
       },
       "manifest": {
-        "sha256": "6e75fb4d120ff67edf7d24338d6605d0ae62ab2e41c4dfb09e5a44557bcacdf6",
-        "size": 430176,
-        "gz": 86382
+        "sha256": "b7d684eda1f948bdcccd9ffe5d9731d4fb7b26704a5fb114edbe65966a3e33c1",
+        "size": 474925,
+        "gz": 95483
       },
       "platforms": {
         "windows": {
-          "files": 1619,
-          "bytes": 738278833,
-          "gz": 189429719
+          "files": 1787,
+          "bytes": 863549026,
+          "gz": 223289451
         }
       },
       "art": {
@@ -786,9 +823,9 @@
         },
         "hero": {
           "file": "hero.jpg",
-          "sha256": "3827ed1e9c4b47e59172edbde6aa930c369059506db93d92a6821b8d79adc637",
-          "size": 351014,
-          "gz": 350487
+          "sha256": "7df6ae3fed0f1303e80f5247c94e1155e3d30455b1d8d260ec247dddbebce5fa",
+          "size": 843505,
+          "gz": 841951
         },
         "icon": {
           "file": "icon.png",
