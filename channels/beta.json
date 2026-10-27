@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 26,
-  "published": "2026-10-27T13:26:05Z",
+  "seq": 28,
+  "published": "2026-10-27T16:26:10Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,65 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.8",
-      "build": "82236a4609a8b34e",
-      "published": "2026-10-27T13:26:05Z",
+      "version": "0.5.9",
+      "build": "f1dbc77c73afc8f6",
+      "published": "2026-10-27T16:26:10Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "Sure footing",
+                "kind": "new",
+                "lead": "Height matters now, on Cinderfell's steep flanks above all.",
+                "lines": [
+                  "Walking uphill is slower, down to about half pace on the steepest ground you can climb; past 45 degrees it's a wall, and you slide along it rather than sticking.",
+                  "Low rises are stepped over. Push into a ledge up to about 1.4 m high and your keeper climbs it, hands on the edge.",
+                  "At the edge of a drop higher than 1.5 m you stop and teeter, grit trickling over. Keep pushing to drop off. A long fall lands hard for a moment; falls never hurt.",
+                  "Ground too steep to stand on slides you down it."
+                ]
+              },
+              {
+                "heading": "Space over rough ground",
+                "kind": "changed",
+                "lines": [
+                  "Every Space ability works on Cinderfell. Before, the roll, Shield Rush, Blowback and Springheels did nothing there.",
+                  "The Ranger's roll carries off a ledge and lands rolling; a wall ends it. Space still works for a moment after you step off an edge, and a press just before landing fires as you land.",
+                  "Shield Rush stops at a wall with a stagger and goes over a drop. Blowback can blow you off a ledge.",
+                  "Springheels, and the Warden's Vault, can land on a ledge up to 3 m above you and arc clear of the cliff on the way."
+                ]
+              },
+              {
+                "heading": "Nights from the nests",
+                "kind": "changed",
+                "lines": [
+                  "Each living nest sends its share of the night, and its share grows every night it lives: break one and the nights get smaller.",
+                  "Each nest's fog reaches all the way to the hearth's light; a broken nest's fog draws back into it.",
+                  "Gloam burned away by the dawn no longer pay embers.",
+                  "The Gloam, hearthfolk and Wreckers slow uphill too."
+                ]
+              },
+              {
+                "heading": "A new HUD",
+                "kind": "changed",
+                "lines": [
+                  "Hearth's own type, and no boxes or dark backdrops over the world.",
+                  "The crown carries the night: time left, the fire as its ring, the Gloam risen. The keep's counts sit in a builder's corner with the piece in hand.",
+                  "One prompt line at a time; the party, boons, Tab panel, boss bar, kit slips, dawn screen and build wheel restyled to match."
+                ]
+              },
+              {
+                "heading": "Fixed",
+                "kind": "fixed",
+                "lines": [
+                  "A smack's mainsail stays laced to its boom and gaff when it fills hard or flogs."
+                ]
+              }
+            ],
+            "title": "Sure footing",
+            "version": "0.5.9"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -803,15 +857,15 @@
         ]
       },
       "manifest": {
-        "sha256": "b7d684eda1f948bdcccd9ffe5d9731d4fb7b26704a5fb114edbe65966a3e33c1",
-        "size": 474925,
-        "gz": 95483
+        "sha256": "76ff06d54189618a96412564702910d962bb3d068059d5a0d9d8eada0b80714f",
+        "size": 475188,
+        "gz": 95540
       },
       "platforms": {
         "windows": {
-          "files": 1787,
-          "bytes": 863549026,
-          "gz": 223289451
+          "files": 1788,
+          "bytes": 869934969,
+          "gz": 224030543
         }
       },
       "art": {
