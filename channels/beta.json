@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 31,
-  "published": "2026-10-27T21:10:43Z",
+  "seq": 32,
+  "published": "2026-10-27T21:56:31Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,29 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.12",
-      "build": "e64f6c767fe778dc",
-      "published": "2026-10-27T21:10:43Z",
+      "version": "0.5.13",
+      "build": "10756cf795846a44",
+      "published": "2026-10-27T21:56:31Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "The sea",
+                "kind": "fixed",
+                "lines": [
+                  "No more tears in the sea: thin slits of seabed showed in the corners of the view, worst in a storm.",
+                  "The shore's foam is a soft band of lace fading into the sand, no longer a hard pale strip that looked like a second shoreline.",
+                  "Water a Flare or a run along the beach throws up the sand drains back down, no longer sitting there as a still pocket.",
+                  "In a storm the troughs no longer sink through the shallows to bare sand: the water there churns to foam.",
+                  "A Draft, a Flare or a boat's wake out in deep water now leaves waves that ring out for a second or two, as they do by the shore."
+                ]
+              }
+            ],
+            "title": "A calmer shore",
+            "version": "0.5.13"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -918,15 +936,15 @@
         ]
       },
       "manifest": {
-        "sha256": "2a5cb0a327f966561c5e41bed5871f37efa92cc3ddb73ab117b4458104aa333c",
+        "sha256": "93716052fcb703324242fb84c0fd393dc228c379e767a658f88c4b16229743d9",
         "size": 475189,
-        "gz": 95512
+        "gz": 95539
       },
       "platforms": {
         "windows": {
           "files": 1788,
-          "bytes": 870276294,
-          "gz": 224099489
+          "bytes": 870299766,
+          "gz": 224105248
         }
       },
       "art": {
