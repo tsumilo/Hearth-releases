@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 30,
-  "published": "2026-10-27T19:36:39Z",
+  "seq": 31,
+  "published": "2026-10-27T21:10:43Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,26 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.11",
-      "build": "99bfbefa65aa5d71",
-      "published": "2026-10-27T19:36:39Z",
+      "version": "0.5.12",
+      "build": "e64f6c767fe778dc",
+      "published": "2026-10-27T21:10:43Z",
       "notes": {
         "changelog": [
+          {
+            "date": "27 October 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lines": [
+                  "Shooting by day no longer stutters. Every click with nothing in hand made the game redraw its map of the sea floor, which has taken a moment since Cinderfell came: about once a second in a fight with the Wreckers.",
+                  "Placing pieces and laying walls no longer hitches either: the sea floor is redrawn alongside the game, not in the middle of a frame."
+                ]
+              }
+            ],
+            "title": "No hitch at every shot",
+            "version": "0.5.12"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -903,15 +918,15 @@
         ]
       },
       "manifest": {
-        "sha256": "df5ff9c3b3f8e4737331ec65e7c27f829cb3f70a68076d98f58073211002881f",
+        "sha256": "2a5cb0a327f966561c5e41bed5871f37efa92cc3ddb73ab117b4458104aa333c",
         "size": 475189,
-        "gz": 95509
+        "gz": 95512
       },
       "platforms": {
         "windows": {
           "files": 1788,
-          "bytes": 870270150,
-          "gz": 224098748
+          "bytes": 870276294,
+          "gz": 224099489
         }
       },
       "art": {
