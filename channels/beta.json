@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 32,
-  "published": "2026-10-27T21:56:31Z",
+  "seq": 33,
+  "published": "2026-10-28T14:09:25Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,53 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.13",
-      "build": "10756cf795846a44",
-      "published": "2026-10-27T21:56:31Z",
+      "version": "0.5.14",
+      "build": "0a7af0e26322bb36",
+      "published": "2026-10-28T14:09:25Z",
       "notes": {
         "changelog": [
+          {
+            "date": "28 October 2026",
+            "sections": [
+              {
+                "heading": "The beacon",
+                "kind": "new",
+                "lines": [
+                  "Once the hearth is kindled as high as it goes, hold F beside it to send a beacon up for embers: a pillar of gold light out of the crowned bowl. Someone walks in from the edge of the light at the next dawn, already home (one at a time, and only with a free bed)."
+                ]
+              },
+              {
+                "heading": "Cinderfell",
+                "kind": "changed",
+                "lines": [
+                  "The island keeps its own colours: the home hearth's daytime haze no longer greys it from 900 m away.",
+                  "The lava runs as a river in a carved channel, its margins crusting over, the rock beside it lit by it, and flows on into the sea where the water boils and steams.",
+                  "The vents glow from inside like forges, their pool of melt running up into the crater walls.",
+                  "The caldera's lava lake lies level in its crater.",
+                  "The ground is basalt-dark, with its flows, fronts and rubble showing, and the Deepcoal seams glow with thin cracks in scorched ground."
+                ]
+              },
+              {
+                "heading": "Smoke, steam and the shore",
+                "kind": "changed",
+                "lines": [
+                  "Smoke and steam are lit by the sun, the sky and the fires near them, and shade themselves: the hearth's smoke, Flares, the vents and the steam off the lava.",
+                  "The surf breaks: crests too tall for the water under them tip over, their foam carried shoreward as lace.",
+                  "The shallows are clear turquoise over the sand, and the sand darkens where the water has just been, drying over a few seconds."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lines": [
+                  "Hearthfolk no longer stop for good at a wall: they find their way round it, or home through a gate.",
+                  "Getting a survivor or a downed hearthfolk up takes holding F until the prompt's bar fills, no longer happening by itself after a moment."
+                ]
+              }
+            ],
+            "title": "Fire and water",
+            "version": "0.5.14"
+          },
           {
             "date": "27 October 2026",
             "sections": [
@@ -936,15 +978,15 @@
         ]
       },
       "manifest": {
-        "sha256": "93716052fcb703324242fb84c0fd393dc228c379e767a658f88c4b16229743d9",
-        "size": 475189,
-        "gz": 95539
+        "sha256": "86a19bb1d7a56772a0e8721537e7506b54c023eb940f82350326ff3d9338b285",
+        "size": 476535,
+        "gz": 95722
       },
       "platforms": {
         "windows": {
-          "files": 1788,
-          "bytes": 870299766,
-          "gz": 224105248
+          "files": 1793,
+          "bytes": 872842566,
+          "gz": 223992575
         }
       },
       "art": {
