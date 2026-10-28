@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 33,
-  "published": "2026-10-28T14:09:25Z",
+  "seq": 34,
+  "published": "2026-10-28T14:48:12Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,46 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.14",
-      "build": "0a7af0e26322bb36",
-      "published": "2026-10-28T14:09:25Z",
+      "version": "0.5.15",
+      "build": "3888d2707917f676",
+      "published": "2026-10-28T14:48:12Z",
       "notes": {
         "changelog": [
+          {
+            "date": "28 October 2026",
+            "sections": [
+              {
+                "heading": "Jump",
+                "kind": "new",
+                "lead": "Space jumps. Every kit's movement ability (the roll, Shield Rush, Springheels, Blowback) is on Shift now.",
+                "lines": [
+                  "You take off at the pace you were running, about 0.8 m high. Space still works a moment after you step off an edge, and a press just before you land jumps as you land.",
+                  "Jump into a ledge your hands can reach and you climb it. Walking into a ledge no longer climbs it on its own.",
+                  "No jumping off ground too steep to walk up, and a moment's footing between jumps: hopping won't take you up a slope walking can't.",
+                  "Bumps don't stop you in mid-air any more, and landings are smooth: no stutter of arms."
+                ]
+              },
+              {
+                "heading": "Sliding down scree",
+                "kind": "new",
+                "lead": "Run down Cinderfell's steep ash and you slide.",
+                "lines": [
+                  "Faster the steeper it gets, slowing where the ground eases. Steer a little, pull back to brake, jump out of it at speed.",
+                  "Your keeper sits back with heels dug in, a hand trailing in the ash and an arm out for balance, ash streaming off behind."
+                ]
+              },
+              {
+                "heading": "Fixed",
+                "kind": "fixed",
+                "lines": [
+                  "No more slits along the edge of the water in the far corners of the view in a storm.",
+                  "A Wrecker that dies falls with a body's sound, not the Gloam's whine."
+                ]
+              }
+            ],
+            "title": "Jump and slide",
+            "version": "0.5.15"
+          },
           {
             "date": "28 October 2026",
             "sections": [
@@ -978,15 +1013,15 @@
         ]
       },
       "manifest": {
-        "sha256": "86a19bb1d7a56772a0e8721537e7506b54c023eb940f82350326ff3d9338b285",
-        "size": 476535,
-        "gz": 95722
+        "sha256": "65e22b7d247081ed0d582ce345701e81bd1e50c2062c6c8ef6fed0c6988fe957",
+        "size": 476798,
+        "gz": 95789
       },
       "platforms": {
         "windows": {
-          "files": 1793,
-          "bytes": 872842566,
-          "gz": 223992575
+          "files": 1794,
+          "bytes": 878449606,
+          "gz": 224580782
         }
       },
       "art": {
