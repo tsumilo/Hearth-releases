@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 34,
-  "published": "2026-10-28T14:48:12Z",
+  "seq": 35,
+  "published": "2026-10-28T17:26:38Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,27 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.15",
-      "build": "3888d2707917f676",
-      "published": "2026-10-28T14:48:12Z",
+      "version": "0.5.16",
+      "build": "d8c5db8f70ea2960",
+      "published": "2026-10-28T17:26:38Z",
       "notes": {
         "changelog": [
+          {
+            "date": "28 October 2026",
+            "sections": [
+              {
+                "heading": "Building boats",
+                "kind": "new",
+                "lead": "A built quay lays a keel. Stand at its shore end by day and hold F.",
+                "lines": [
+                  "A tier I quay builds the small smack for two (14 timber), a tier II or III quay the fishing smack (30 timber, 6 stone).",
+                  "The boat goes up on a slip down the beach beside the quay, one at a time. Build it like any site, then F by it launches it."
+                ]
+              }
+            ],
+            "title": "Boats from the quay",
+            "version": "0.5.16"
+          },
           {
             "date": "28 October 2026",
             "sections": [
@@ -1013,15 +1029,15 @@
         ]
       },
       "manifest": {
-        "sha256": "65e22b7d247081ed0d582ce345701e81bd1e50c2062c6c8ef6fed0c6988fe957",
+        "sha256": "54b7f9cc5668ba17238094da87fa383a110e731cff752f76428708c4ef86e522",
         "size": 476798,
-        "gz": 95789
+        "gz": 95786
       },
       "platforms": {
         "windows": {
           "files": 1794,
-          "bytes": 878449606,
-          "gz": 224580782
+          "bytes": 878449094,
+          "gz": 224582281
         }
       },
       "art": {
