@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 36,
-  "published": "2026-11-01T03:01:17Z",
+  "seq": 37,
+  "published": "2026-11-01T09:18:52Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,33 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.17",
-      "build": "64d7cea661b8a4ce",
-      "published": "2026-11-01T03:01:17Z",
+      "version": "0.5.18",
+      "build": "99f30cf51c89d010",
+      "published": "2026-11-01T09:18:52Z",
       "notes": {
         "changelog": [
+          {
+            "date": "1 November 2026",
+            "sections": [
+              {
+                "heading": "Peer to peer",
+                "kind": "changed",
+                "lead": "Played with friends, the game's traffic now goes straight between your computers through Hearth (Hearth 0.1.18 or newer), and through Hearth's server only when it can't.",
+                "lines": [
+                  "Less lag for most of you, and no limit from our server's monthly allowance.",
+                  "Hearth's Settings can hide your address from the friends you play with."
+                ]
+              },
+              {
+                "heading": "Worlds in the lobby",
+                "kind": "new",
+                "lead": "With Hearth 0.1.19, the host picks a saved world (or a new one) on the lobby's banner, and it's saved when the game ends.",
+                "lines": []
+              }
+            ],
+            "title": "Straight to your friends",
+            "version": "0.5.18"
+          },
           {
             "date": "1 November 2026",
             "sections": [
@@ -1074,15 +1096,15 @@
         ]
       },
       "manifest": {
-        "sha256": "1c62fad916addec0ddcf67d37cbafb84c3732519a5f9352f9724824ef33b9eac",
+        "sha256": "e6af76c325c51be1bcf23d08e8fe97aa295b38f8220c61c713801bf6b563e6c0",
         "size": 502080,
-        "gz": 101003
+        "gz": 101005
       },
       "platforms": {
         "windows": {
           "files": 1888,
-          "bytes": 996777795,
-          "gz": 257204020
+          "bytes": 996788547,
+          "gz": 257208320
         }
       },
       "art": {
