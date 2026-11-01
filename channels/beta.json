@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 38,
-  "published": "2026-11-01T11:12:03Z",
+  "seq": 39,
+  "published": "2026-11-01T19:23:02Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,80 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.19",
-      "build": "74c73854ad1e6750",
-      "published": "2026-11-01T11:12:03Z",
+      "version": "0.5.20",
+      "build": "4a9953c3876d8532",
+      "published": "2026-11-01T19:23:02Z",
       "notes": {
         "changelog": [
+          {
+            "date": "1 November 2026",
+            "sections": [
+              {
+                "heading": "Digging",
+                "kind": "new",
+                "lead": "Everything under Gleed's soil can be dug now: hold F with nothing else in reach and your keeper digs where you aim.",
+                "lines": [
+                  "Dig into a bank or a hill for a tunnel, or into open ground for a ramp down. Soil comes away fast, rock slower, the deep slower still.",
+                  "The rock you dig out is stone, carried home in loads like a quarry's.",
+                  "Tunnels get timber sets, hung lamps and a braced portal at the mouth; underground your keeper carries a light.",
+                  "Your hearthfolk dig too: put a dig stake on bare ground and they dig a pit round it for stone."
+                ]
+              },
+              {
+                "heading": "Ores and the Forge",
+                "kind": "new",
+                "lead": "Copper, iron and brightsilver lie in veins underground, and the Forge turns them into better weapons.",
+                "lines": [
+                  "Copper lies near the surface (the folk's pits find some), iron deep in the hills, brightsilver only in the deep, where it glows.",
+                  "The Forge is a blueprint found in a ruin's chest. Build it, point at its anvil and hold F to forge your weapon a tier up: copper, iron, then brightsilver.",
+                  "Every kit's weapon forges: the Ranger's bows, the Tinker's crossbows, the Warden's swords and the Emberkeeper's lanterns, each its own model.",
+                  "A better weapon hits harder and reaches further; brightsilver hits the Gloam harder still.",
+                  "Your weapon's socket (1) shows it, rimmed in its metal, with its numbers and what the Forge makes next."
+                ]
+              },
+              {
+                "heading": "Levels and talents",
+                "kind": "new",
+                "lead": "Your keeper earns experience from kills, objectives and work, and a talent point every level.",
+                "lines": [
+                  "Press U for the talent screen and sharpen your kit, with a choice of two at ranks 3 and 5.",
+                  "Respec at the hearth for embers."
+                ]
+              },
+              {
+                "heading": "The job wheel",
+                "kind": "new",
+                "lead": "Hold M for a wheel of jobs and place work stakes as areas for your hearthfolk.",
+                "lines": []
+              },
+              {
+                "heading": "The sea",
+                "kind": "new",
+                "lead": "Gleed's shallows hold coral gardens and seagrass in clear water, with a sunk smack among them.",
+                "lines": [
+                  "The factions' transports are seen from afar and float like the boats, their raiding parties aboard: a siege can come by sea."
+                ]
+              },
+              {
+                "heading": "Building",
+                "kind": "changed",
+                "lead": "Build anywhere, lit or dark, by day or by night. Lanterns cost no embers.",
+                "lines": []
+              },
+              {
+                "heading": "The look",
+                "kind": "changed",
+                "lead": "Leaves are painted in more detail, and the birds and butterflies are feathered and patterned at life size.",
+                "lines": [
+                  "Trees fade between their levels smoothly, their shadows hold steady, and the sun's shafts are smoother.",
+                  "The sun and the moon keep to their own paths across the sky.",
+                  "A keeper standing still steps round to face its aim, and its knees bend the way its thighs point."
+                ]
+              }
+            ],
+            "title": "Dig deep, forge better",
+            "version": "0.5.20"
+          },
           {
             "date": "1 November 2026",
             "sections": [
@@ -1137,15 +1206,15 @@
         ]
       },
       "manifest": {
-        "sha256": "f508c3946c2befabd4059ab4307a2a540478ab045cd43e1ed0b3b7fb9bdc0fee",
-        "size": 513120,
-        "gz": 103178
+        "sha256": "66ef3275ce6338c753531c5ebdd66a7d4b1902ab1d689fc7e671155b1d29aff2",
+        "size": 558117,
+        "gz": 112022
       },
       "platforms": {
         "windows": {
-          "files": 1929,
-          "bytes": 1134373570,
-          "gz": 284132441
+          "files": 2095,
+          "bytes": 1220736992,
+          "gz": 301669881
         }
       },
       "art": {
