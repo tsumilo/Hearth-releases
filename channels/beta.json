@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 37,
-  "published": "2026-11-01T09:18:52Z",
+  "seq": 38,
+  "published": "2026-11-01T11:12:03Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,52 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.18",
-      "build": "99f30cf51c89d010",
-      "published": "2026-11-01T09:18:52Z",
+      "version": "0.5.19",
+      "build": "74c73854ad1e6750",
+      "published": "2026-11-01T11:12:03Z",
       "notes": {
         "changelog": [
+          {
+            "date": "1 November 2026",
+            "sections": [
+              {
+                "heading": "A grown forest",
+                "kind": "new",
+                "lead": "The island's trees are our own now, grown at life size: oak, Scots pine, silver birch, rowan, shore pine and dead snags.",
+                "lines": [
+                  "Every tree is different, and a mature oak stands three times as tall as before.",
+                  "They thin out smoothly with distance, with no popping.",
+                  "The Gloam and your folk find their way round the trees that are actually there, and every one of them can be felled."
+                ]
+              },
+              {
+                "heading": "The Gloam at home",
+                "kind": "new",
+                "lead": "The Gloam live on their own island now, and the lava creatures on Cinderfell: both gather, build, train and send war parties over the sea.",
+                "lines": [
+                  "No more night waves out of brood mounds on Gleed: raids come ashore by ray and by basalt barge, from whichever side wants a fight.",
+                  "They make war on each other too. Snuff out their hearts to win."
+                ]
+              },
+              {
+                "heading": "Close up",
+                "kind": "changed",
+                "lead": "Keepers made for the camera behind them: painted faces that blink and look round, and gear at true size.",
+                "lines": [
+                  "The Warden's sword and shield rebuilt, the Ranger's quiver stitched and full of fletched arrows.",
+                  "Feet stay planted as you turn and walk."
+                ]
+              },
+              {
+                "heading": "Fixed",
+                "kind": "fixed",
+                "lead": "A placed ability cast out of reach now walks you in and lands where you placed it.",
+                "lines": []
+              }
+            ],
+            "title": "A grown forest, and the Gloam at home",
+            "version": "0.5.19"
+          },
           {
             "date": "1 November 2026",
             "sections": [
@@ -1096,15 +1137,15 @@
         ]
       },
       "manifest": {
-        "sha256": "e6af76c325c51be1bcf23d08e8fe97aa295b38f8220c61c713801bf6b563e6c0",
-        "size": 502080,
-        "gz": 101005
+        "sha256": "f508c3946c2befabd4059ab4307a2a540478ab045cd43e1ed0b3b7fb9bdc0fee",
+        "size": 513120,
+        "gz": 103178
       },
       "platforms": {
         "windows": {
-          "files": 1888,
-          "bytes": 996788547,
-          "gz": 257208320
+          "files": 1929,
+          "bytes": 1134373570,
+          "gz": 284132441
         }
       },
       "art": {
