@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 39,
-  "published": "2026-11-01T19:23:02Z",
+  "seq": 40,
+  "published": "2026-11-03T17:23:04Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,81 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.20",
-      "build": "4a9953c3876d8532",
-      "published": "2026-11-01T19:23:02Z",
+      "version": "0.5.21",
+      "build": "b61d5d3997aed00d",
+      "published": "2026-11-03T17:23:04Z",
       "notes": {
         "changelog": [
+          {
+            "date": "3 November 2026",
+            "sections": [
+              {
+                "heading": "The brig",
+                "kind": "new",
+                "lead": "Raise the quay to a harbour and a brig goes up on its slip: a warship of three decks, two masts and ten great guns.",
+                "lines": [
+                  "Take her alongside the harbour and board her by her gangway, then walk her decks from the hold to her wheel.",
+                  "Fire a broadside from her wheel; every gun's kick heels her.",
+                  "Her guns are loaded by hand, every ball carried up from her shot locker, and worked at the drill by keepers and hearthfolk alike.",
+                  "Hearthfolk crew her: aboard by the gangway, at her guns, firing at the captain's mark.",
+                  "What's set down on her decks rides with her."
+                ]
+              },
+              {
+                "heading": "Fighting at sea",
+                "kind": "new",
+                "lead": "The first boat is earned now, and the smacks fight: shots hole a hull where they strike, and the swivel gun fires from the deck.",
+                "lines": [
+                  "Hulls meet: boats and the factions' transports collide, and a ram does damage.",
+                  "A boat's decks are ground to walk on, boarded by ladder."
+                ]
+              },
+              {
+                "heading": "Finds at sea",
+                "kind": "new",
+                "lead": "The Teeth and Lantern Skerry, a Wreckers' haunt out on the water.",
+                "lines": [
+                  "The Forge and the reliquary can be found at sea, and the reliquary built."
+                ]
+              },
+              {
+                "heading": "Walls and towers",
+                "kind": "new",
+                "lead": "A gate set between two towers becomes a gatehouse, and one out in front of a gatehouse a barbican.",
+                "lines": [
+                  "In a siege your hearthfolk climb the towers by their ladders and shoot from the top; an unmanned tower stays quiet."
+                ]
+              },
+              {
+                "heading": "The look",
+                "kind": "changed",
+                "lead": "The shore is one shallow water, and the seabed falls away naturally round the islands instead of a square of shallows.",
+                "lines": [
+                  "The far sea matches the near one.",
+                  "The lava creatures, the drudge, the basalt barge and the Gloam ray have new bodies, and the lava creatures' works stand at life size."
+                ]
+              },
+              {
+                "heading": "Playing together",
+                "kind": "fixed",
+                "lead": "A resumed world keeps whose keeper is whose, and friends join at once instead of waiting for dawn.",
+                "lines": [
+                  "Forged weapons, the Wreckers and work stakes show for everyone in a lobby, and the right button pulls a stake up."
+                ]
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "No more lifting out of a dug room or a mine onto the hill above it.",
+                "lines": [
+                  "The camera moves freely in dug ground; first person only with the mouse wheel.",
+                  "The hearthfolk carry loads in their arms and open the gates themselves."
+                ]
+              }
+            ],
+            "title": "A brig of your own",
+            "version": "0.5.21"
+          },
           {
             "date": "1 November 2026",
             "sections": [
@@ -1206,15 +1276,15 @@
         ]
       },
       "manifest": {
-        "sha256": "66ef3275ce6338c753531c5ebdd66a7d4b1902ab1d689fc7e671155b1d29aff2",
-        "size": 558117,
-        "gz": 112022
+        "sha256": "544768ad36b7742458ae69c78b6a70158db506d659e95893755f87f1771c028d",
+        "size": 632797,
+        "gz": 126840
       },
       "platforms": {
         "windows": {
-          "files": 2095,
-          "bytes": 1220736992,
-          "gz": 301669881
+          "files": 2375,
+          "bytes": 1429621031,
+          "gz": 355950243
         }
       },
       "art": {
