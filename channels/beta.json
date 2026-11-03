@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 40,
-  "published": "2026-11-03T17:23:04Z",
+  "seq": 41,
+  "published": "2026-11-03T18:07:28Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,36 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.21",
-      "build": "b61d5d3997aed00d",
-      "published": "2026-11-03T17:23:04Z",
+      "version": "0.5.22",
+      "build": "54e01adfd511c691",
+      "published": "2026-11-03T18:07:28Z",
       "notes": {
         "changelog": [
+          {
+            "date": "3 November 2026",
+            "sections": [
+              {
+                "heading": "The Wild Chart",
+                "kind": "new",
+                "lead": "Gleed is no longer alone: every new world is an archipelago of some three hundred islands, Cinderfell, Gloamhold and the Teeth among them where the chart puts them.",
+                "lines": [
+                  "Each kind of island has its own look. Green isles have birch groves, heather and gorse on the heath, marram and driftwood on the strand.",
+                  "Forest isles are deep woods of oak and pine, with bracken, hazel, fallen trunks going green and mossy boulders.",
+                  "Volcanic isles are old black flows with green hollows, ferns and a few birches, and basalt columns where the shore is steep.",
+                  "Skerries are dark lichened rock with granite standing out of it, and thrift in pink tufts over the turf.",
+                  "Islands far off look as they do near, their trees on them, and nothing pops into view as you sail closer."
+                ]
+              },
+              {
+                "heading": "Worlds",
+                "kind": "changed",
+                "lead": "A world saved before this update stays the home island it was, and friends joining a resumed world sail the same islands as its host.",
+                "lines": []
+              }
+            ],
+            "title": "The open sea",
+            "version": "0.5.22"
+          },
           {
             "date": "3 November 2026",
             "sections": [
@@ -1276,15 +1301,15 @@
         ]
       },
       "manifest": {
-        "sha256": "544768ad36b7742458ae69c78b6a70158db506d659e95893755f87f1771c028d",
+        "sha256": "bccc278b5a4b14a3fa09f2883e48f4fd107a3a24713efae799512b47748d2df0",
         "size": 632797,
-        "gz": 126840
+        "gz": 126841
       },
       "platforms": {
         "windows": {
           "files": 2375,
-          "bytes": 1429621031,
-          "gz": 355950243
+          "bytes": 1429627687,
+          "gz": 355957674
         }
       },
       "art": {
