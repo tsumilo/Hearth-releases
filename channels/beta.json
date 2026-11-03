@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 41,
-  "published": "2026-11-03T18:07:28Z",
+  "seq": 42,
+  "published": "2026-11-03T19:44:16Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,38 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.22",
-      "build": "54e01adfd511c691",
-      "published": "2026-11-03T18:07:28Z",
+      "version": "0.5.23",
+      "build": "554b17f6f077d15f",
+      "published": "2026-11-03T19:44:16Z",
       "notes": {
         "changelog": [
+          {
+            "date": "3 November 2026",
+            "sections": [
+              {
+                "heading": "The bag",
+                "kind": "new",
+                "lead": "Your keeper carries a bag of eight slots: timber and stone stack ten to a slot, each ore five.",
+                "lines": [
+                  "Keep digging with a full bag: what doesn't fit falls behind you in a pile to come back for.",
+                  "Past six slots' worth you're heavy, slower and unable to roll or jump. Lighter than that, carrying costs nothing.",
+                  "Carrying no longer stops you building, forging, mending or kindling.",
+                  "Press I to open the bag: click a stack to drop it, right-click to drop half. The whole bag goes into the store at the hearth or a stockpile.",
+                  "The Porter's Yoke gives four more slots."
+                ]
+              },
+              {
+                "heading": "Worlds",
+                "kind": "changed",
+                "lead": "Every new world you start alone is a chart of its own: its islands lie differently from any other's, and a saved world keeps its own.",
+                "lines": [
+                  "A lobby's world is still the same for everyone in it."
+                ]
+              }
+            ],
+            "title": "A bag, and a sea of your own",
+            "version": "0.5.23"
+          },
           {
             "date": "3 November 2026",
             "sections": [
@@ -1301,15 +1328,15 @@
         ]
       },
       "manifest": {
-        "sha256": "bccc278b5a4b14a3fa09f2883e48f4fd107a3a24713efae799512b47748d2df0",
+        "sha256": "a588272f2fae8c1249cfa68af7a8d05304d8185705c1de341e850b48688d138c",
         "size": 632797,
-        "gz": 126841
+        "gz": 126840
       },
       "platforms": {
         "windows": {
           "files": 2375,
-          "bytes": 1429627687,
-          "gz": 355957674
+          "bytes": 1429769602,
+          "gz": 355987030
         }
       },
       "art": {
