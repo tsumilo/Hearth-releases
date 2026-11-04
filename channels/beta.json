@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 43,
-  "published": "2026-11-04T07:42:41Z",
+  "seq": 44,
+  "published": "2026-11-04T21:37:12Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,89 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.24",
-      "build": "363cfd68c1c78e3b",
-      "published": "2026-11-04T07:42:41Z",
+      "version": "0.5.25",
+      "build": "91f0b9ad459b1f1f",
+      "published": "2026-11-04T21:37:12Z",
       "notes": {
         "changelog": [
+          {
+            "date": "4 November 2026",
+            "sections": [
+              {
+                "heading": "Building on the islands",
+                "kind": "new",
+                "lead": "Every island out on the chart can be built on now, not just Gleed: walls and gates, towers, houses, stockpiles, lamps and quays.",
+                "lines": [
+                  "The ground levels under what you build there, and paths run across those islands as they do at home.",
+                  "What you build on another island is seen from the sea as you sail past.",
+                  "Nothing attacks an outpost yet."
+                ]
+              },
+              {
+                "heading": "The quay",
+                "kind": "new",
+                "lead": "Hold F at a quay's root to open the shipwright's board and choose which boat to build, instead of the one its tier gave.",
+                "lines": [
+                  "A higher quay still builds the smaller boats. A boat you can't build yet says what it needs, and one you can't afford shows which stock is short.",
+                  "Every quay is ground you can walk on, and the harbour's water stair runs on under the water, so you can swim up to it and climb out.",
+                  "The harbour light is rebuilt: a tall light with the hearth's own fire in it."
+                ]
+              },
+              {
+                "heading": "Tools and making things",
+                "kind": "new",
+                "lead": "A belt of five slots holds your weapon and your tools: the pickaxe, the axe, the hammer and a torch. Keys 1 to 5 take one in hand, and only the tool in hand does its work.",
+                "lines": [
+                  "Make a crude set by hand from sticks and pebbles found round the hearth and on the shore: open the pack with I.",
+                  "Build a workbench to make tools from the store and upgrade them to copper; the Forge makes iron and brightsilver tools. Better tools work faster.",
+                  "Your kit's weapon abilities need the weapon in hand (key 1)."
+                ]
+              },
+              {
+                "heading": "Day and night",
+                "kind": "changed",
+                "lead": "The days are a little longer, and the nights now last as long as the days: seven minutes each.",
+                "lines": [
+                  "Sunset and sunrise take their time: the sun and moon cross the sky at one steady pace, so dusk and dawn last two to three minutes instead of a few seconds.",
+                  "Calling the night at the hearth still brings dusk in 20 seconds."
+                ]
+              },
+              {
+                "heading": "The old nights",
+                "kind": "changed",
+                "lead": "Pieces of the old way of playing are gone: the dusk warning and its \"Make for the fire\", the Gloam count at the top of the screen, and the keep's boon vote each dawn.",
+                "lines": [
+                  "Dawn still counts the night held as everyone's XP, and the day comes on without waiting.",
+                  "A ruin's chest that held an extra boon pick now holds a keeper's journal.",
+                  "Worlds saved before keep the boons they already won."
+                ]
+              },
+              {
+                "heading": "On the water",
+                "kind": "fixed",
+                "lead": "A keeper at the sweeps grips the oars through the whole stroke again and rows from the hips.",
+                "lines": [
+                  "A swimmer always swims the way it faces: back and sideways keys turn it, instead of sliding it backwards or sideways."
+                ]
+              },
+              {
+                "heading": "The look",
+                "kind": "changed",
+                "lead": "The pines have new bark: long plates in relief with orange flakes higher up, in place of the big even tiles.",
+                "lines": []
+              },
+              {
+                "heading": "Smoother",
+                "kind": "fixed",
+                "lead": "Fewer hitches: the moment the first shade comes out at night, the weather changing, and islands coming into reach all cost a fraction of what they did.",
+                "lines": [
+                  "The reliquary's build screen opens again."
+                ]
+              }
+            ],
+            "title": "Outposts and long sunsets",
+            "version": "0.5.25"
+          },
           {
             "date": "4 November 2026",
             "sections": [
@@ -1358,15 +1436,15 @@
         ]
       },
       "manifest": {
-        "sha256": "52fcd43faba7661fc08b719b3eb5879175c1db7ff5bec0ebbb9d12a3a736a70c",
-        "size": 632797,
-        "gz": 126846
+        "sha256": "729ff2fc1047662b4dcf4402ec5f7c3effe7c3807575ec47021da6b7c995cf24",
+        "size": 658420,
+        "gz": 131791
       },
       "platforms": {
         "windows": {
-          "files": 2375,
-          "bytes": 1429813082,
-          "gz": 355995027
+          "files": 2471,
+          "bytes": 1452286227,
+          "gz": 364663201
         }
       },
       "art": {
