@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 42,
-  "published": "2026-11-03T19:44:16Z",
+  "seq": 43,
+  "published": "2026-11-04T07:42:41Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,41 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.23",
-      "build": "554b17f6f077d15f",
-      "published": "2026-11-03T19:44:16Z",
+      "version": "0.5.24",
+      "build": "363cfd68c1c78e3b",
+      "published": "2026-11-04T07:42:41Z",
       "notes": {
         "changelog": [
+          {
+            "date": "4 November 2026",
+            "sections": [
+              {
+                "heading": "The wind",
+                "kind": "changed",
+                "lead": "The wind turns: every five minutes it swings round to blow from somewhere new, so a trip out isn't always a beat into it.",
+                "lines": [
+                  "The sails, the waves, the grass, the trees and the clouds all follow it as it veers.",
+                  "Wait for a fair wind, or tack: the next turn may be kinder."
+                ]
+              },
+              {
+                "heading": "The brig",
+                "kind": "changed",
+                "lead": "The brig sails about twice as fast in a wind, and closer to it.",
+                "lines": [
+                  "She still turns like a ship."
+                ]
+              },
+              {
+                "heading": "Playing together",
+                "kind": "fixed",
+                "lead": "Aboard a boat in a friend's world, your keeper and camera ride her smoothly instead of stepping ahead of her deck.",
+                "lines": []
+              }
+            ],
+            "title": "A turning wind",
+            "version": "0.5.24"
+          },
           {
             "date": "3 November 2026",
             "sections": [
@@ -1328,15 +1358,15 @@
         ]
       },
       "manifest": {
-        "sha256": "a588272f2fae8c1249cfa68af7a8d05304d8185705c1de341e850b48688d138c",
+        "sha256": "52fcd43faba7661fc08b719b3eb5879175c1db7ff5bec0ebbb9d12a3a736a70c",
         "size": 632797,
-        "gz": 126840
+        "gz": 126846
       },
       "platforms": {
         "windows": {
           "files": 2375,
-          "bytes": 1429769602,
-          "gz": 355987030
+          "bytes": 1429813082,
+          "gz": 355995027
         }
       },
       "art": {
