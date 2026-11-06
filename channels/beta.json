@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 44,
-  "published": "2026-11-04T21:37:12Z",
+  "seq": 45,
+  "published": "2026-11-06T19:44:10Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,133 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.25",
-      "build": "91f0b9ad459b1f1f",
-      "published": "2026-11-04T21:37:12Z",
+      "version": "0.5.26",
+      "build": "bb826e09a6e36cba",
+      "published": "2026-11-06T19:44:10Z",
       "notes": {
         "changelog": [
+          {
+            "date": "6 November 2026",
+            "sections": [
+              {
+                "heading": "The compass and the world chart",
+                "kind": "new",
+                "lead": "The compass is drawn as an inked sea chart and works everywhere now: on Gleed, out at sea and on every island. It only shows where a keeper has been, and in a lobby everyone charts for everyone.",
+                "lines": [
+                  "It turns with your camera, and the mouse wheel over it zooms it in and out.",
+                  "Aboard a boat it shows the wind: a barb on the rim, the arc you can't sail into, and your pennant.",
+                  "At night it darkens under lamplight, with the fire's and the lamps' glow on it.",
+                  "The whole world chart opens at a chart table: drag it, zoom it, and it inks itself sharper when you stop. The sheet lies on the table's planks."
+                ]
+              },
+              {
+                "heading": "Marking the chart",
+                "kind": "new",
+                "lead": "Lay routes, marks and notes on the world chart, in your own ink. Everyone in the lobby sees them as you make them, they're saved with the world, and they show on the compass too.",
+                "lines": [
+                  "The tray beside the chart: 1 Look, 2 Route, 3 Mark, 4 Note, 5 Rub out.",
+                  "Routes are dashed courses: click to set each point, double-click or right click to end it.",
+                  "Eight marks to stamp: anchor, danger, dig, rally, watch, question, camp and ship (Q and E to change).",
+                  "Notes of up to 40 letters, read at the table; on the compass they show as pins.",
+                  "Drag a marking of yours to move it, or a point on a route to bend it. Hover one to see whose it is."
+                ]
+              },
+              {
+                "heading": "The Chart House",
+                "kind": "new",
+                "lead": "A building to walk into, with the world chart on its table. The brig has a captain's cabin with one too.",
+                "lines": [
+                  "Open its door with F, walk in, and press F at the table to read the chart. Esc or F stands you up again."
+                ]
+              },
+              {
+                "heading": "Mountains",
+                "kind": "new",
+                "lead": "The bigger islands rise into mountains: Crags, Sounds cut deep into them, and the Spine running across three islands.",
+                "lines": [
+                  "Streams run down them, with woods on their slopes and stone to dig."
+                ]
+              },
+              {
+                "heading": "Life at sea",
+                "kind": "new",
+                "lead": "Gulls over the water, shoals of fish, and basking sharks out in the deep.",
+                "lines": []
+              },
+              {
+                "heading": "Hearthfolk at sea",
+                "kind": "new",
+                "lead": "Your hearthfolk can come aboard and go ashore on other islands.",
+                "lines": [
+                  "Click one, then a boat: they swim out to her ladder and climb aboard.",
+                  "Click one aboard, then an island near the boat: they swim ashore and live and work there.",
+                  "Hearthfolk now walk and run the way keepers do."
+                ]
+              },
+              {
+                "heading": "Storm seas",
+                "kind": "changed",
+                "lead": "Boats sit in the water now, and storms raise real seas.",
+                "lines": [
+                  "Big seas break at a boat's rail instead of washing over her deck.",
+                  "The sea is calmer and clearer when the wind is still."
+                ]
+              },
+              {
+                "heading": "Swinging tools and fists",
+                "kind": "changed",
+                "lead": "The left mouse button swings whatever is in your hand: a tool, the torch, or your bare fists on an empty belt slot. Click for one swing, hold it to keep swinging.",
+                "lines": [
+                  "Swing at an enemy in reach and you hit it. Each tool hits as hard as you'd expect, a little harder each tier, and your fists hit the least. Even the best tool does about half what the weakest weapon does.",
+                  "Gathering and building moved from F to the left button: swing the axe at a tree or a stump, the pickaxe at a quarry, a rock or the ground, the hammer at a building site or a damaged piece. Let go and the work waits for your next swing.",
+                  "With the wrong tool in hand, the prompt says which one you need.",
+                  "Your weapon (key 1) keeps its clicks: a click on an enemy targets it, a right click attacks it.",
+                  "A tool's damage shows in the pack, at the workbench and the Forge, and when making it by hand."
+                ]
+              },
+              {
+                "heading": "F",
+                "kind": "changed",
+                "lead": "F is for using, opening and picking up: boards, benches, the hearth, chests, seats and boarding, and anything lying on the ground.",
+                "lines": [
+                  "Everything dropped can be picked back up with F, and a dropped tool goes back onto your belt if there's room."
+                ]
+              },
+              {
+                "heading": "Survivors put out their fires",
+                "kind": "changed",
+                "lead": "A survivor you find kicks out its campfire before it follows you: it steps up to the fire, kicks it apart twice, and comes along.",
+                "lines": [
+                  "The sticks, coals and stones scatter, sparks and ash go up, and the flame, its light and its smoke die away over a second.",
+                  "A few seconds later the scattered pieces fade and the fire is gone for good, so old campfires no longer pile up around the island as new survivors arrive.",
+                  "In a world you saved earlier, the fires of survivors already found go out by themselves."
+                ]
+              },
+              {
+                "heading": "A fresh look",
+                "kind": "changed",
+                "lead": "Much of the world has been repainted.",
+                "lines": [
+                  "Every tree's bark and leaves are new, with leaf sprays growing from their twigs.",
+                  "New ground textures and rocks, a deeper meadow with poppies, buttercups, daisies and cornflowers.",
+                  "The light shifts with the time of day and the weather, and the shade under trees stays alive.",
+                  "Cinderfell sits in its own ash fog.",
+                  "The smacks' sweeps are remade, and the brig is wider with bigger gun ports.",
+                  "Birds are drawn larger, so you can see them in play."
+                ]
+              },
+              {
+                "heading": "Smoother",
+                "kind": "fixed",
+                "lead": "The game runs faster on big screens, and boats and transports cost less to run.",
+                "lines": [
+                  "The loading bar fills smoothly right up to the first frame."
+                ]
+              }
+            ],
+            "title": "Chart your course",
+            "version": "0.5.26"
+          },
           {
             "date": "4 November 2026",
             "sections": [
@@ -1436,15 +1558,15 @@
         ]
       },
       "manifest": {
-        "sha256": "729ff2fc1047662b4dcf4402ec5f7c3effe7c3807575ec47021da6b7c995cf24",
-        "size": 658420,
-        "gz": 131791
+        "sha256": "bbf6ad081d20c1d1d33cc7a12628034d0602845c16ec3c27a7595a5cf65cf8e5",
+        "size": 710464,
+        "gz": 141868
       },
       "platforms": {
         "windows": {
-          "files": 2471,
-          "bytes": 1452286227,
-          "gz": 364663201
+          "files": 2667,
+          "bytes": 1527675137,
+          "gz": 412245358
         }
       },
       "art": {
