@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 46,
-  "published": "2026-11-09T05:40:46Z",
+  "seq": 47,
+  "published": "2026-11-09T23:36:19Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,100 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.27",
-      "build": "18021f0c142bf14e",
-      "published": "2026-11-09T05:40:46Z",
+      "version": "0.5.28",
+      "build": "edad886920fecc9e",
+      "published": "2026-11-09T23:36:19Z",
       "notes": {
         "changelog": [
+          {
+            "date": "10 November 2026",
+            "sections": [
+              {
+                "heading": "Fighting",
+                "kind": "changed",
+                "lead": "Your weapon is on the left button now, and every kit has a moment to hit and an answer to a blow.",
+                "lines": [
+                  "Hold the left button to use your weapon: the bow draws and looses on release, the Warden's held swing becomes a heavy blow, the Tinker reloads on a notch, the Emberkeeper gathers cinders. Let go at the right moment for a perfect hit, shown on the ember sight.",
+                  "Every creature winds up before a blow. The Ranger can dodge through it, the Warden can parry with a tap, Blowback turns a creature that's winding up, and a Snap Trap holds one twice as long.",
+                  "Big blows knock you down. A friend can lift you within 20 seconds; otherwise you wake back at the fire. Health comes back only after a few seconds unhurt.",
+                  "Creatures remember who hurt them most, and the creature families fight each other.",
+                  "Every kit hits slower and about 40% softer."
+                ]
+              },
+              {
+                "heading": "Cargo and trade",
+                "kind": "new",
+                "lead": "Goods move by hand: from the store to your pack, into a ship's hold, and out to trade.",
+                "lines": [
+                  "The hearth and every stockpile open the keep's store: press F. Click a stack in your pack to put that stack in, or F to put it all in. The store has room for so much and no more.",
+                  "Every boat has crates in her hold. A full hold sits her lower and slows her by up to a tenth.",
+                  "Hearthfolk can haul between the store and a boat's hold, and they walk quays now.",
+                  "A boat that sinks spills her crates: they drift ashore and can be hauled in. Her sails sink as cloth.",
+                  "Wrackholm's Free Port trades from your pack, and the lead log (L) has a Wreckers' chapter with their contracts and prizes."
+                ]
+              },
+              {
+                "heading": "The hearth",
+                "kind": "changed",
+                "lead": "Hold N at the hearth to kindle it, or to send a beacon once it's fully kindled. F there opens the store.",
+                "lines": [
+                  "Calling the night early is gone: it was for the old nights."
+                ]
+              },
+              {
+                "heading": "Rope",
+                "kind": "new",
+                "lead": "Cut the jungle's lianas with the axe for fibre, and twist rope at the workbench.",
+                "lines": [
+                  "Rope rigs the brig and trades at Wrackholm. A felled tree tears its lianas down as piles."
+                ]
+              },
+              {
+                "heading": "Digging",
+                "kind": "changed",
+                "lead": "Dug ground is ground you can get about in.",
+                "lines": [
+                  "Dig in any direction you look, upward too, and step out of any pit or tunnel.",
+                  "Set torches on dug walls and ladders against them, both made by hand. Hearthfolk dig and stand below the water line.",
+                  "Sticks and pebbles lie about the world to pick up."
+                ]
+              },
+              {
+                "heading": "Economy",
+                "kind": "changed",
+                "lead": "Building costs what it should: slower hands, stone only from digging, and a dearer keep.",
+                "lines": [
+                  "A tree gives 3 timber and a dug load 4 stone. Quarries are gone. Pieces cost twice as much, and the hearthfolk rest at night.",
+                  "The beacon is cheap, and the island has folk of its own to find."
+                ]
+              },
+              {
+                "heading": "Sky and light",
+                "kind": "changed",
+                "lead": "Sunlight through the canopy, sharper clouds, and calmer nights by the fire.",
+                "lines": [
+                  "The sun's beams through the trees are sharper and clearer: warm white by day, gold only toward dawn and dusk.",
+                  "The clouds are crisper at their edges.",
+                  "The brown haze round the hearth at night is gone.",
+                  "The land and the clouds no longer flicker as the sun rises and sets, and the line that ran up the western sky is gone."
+                ]
+              },
+              {
+                "heading": "The keepers' sigil",
+                "kind": "new",
+                "lead": "The Ember Wreath: on the game's icon, every keep banner, and the boats' sails.",
+                "lines": []
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "Hearthfolk find a spot they can stand on to work a tree, a site or a mend, so none runs in place beside a pit.",
+                "lines": []
+              }
+            ],
+            "title": "Cargo, rope and the answer to a blow",
+            "version": "0.5.28"
+          },
           {
             "date": "9 November 2026",
             "sections": [
@@ -1689,15 +1778,15 @@
         ]
       },
       "manifest": {
-        "sha256": "1bf4b56a48a8c1d28f34e05bb00f0253642a386b9753cad9b394084ebabda2b0",
-        "size": 887188,
-        "gz": 177474
+        "sha256": "e7943618dfe3c6f8e9fef0f17f26a5bf4253dc5c1903125abe9831030e308e94",
+        "size": 913045,
+        "gz": 182735
       },
       "platforms": {
         "windows": {
-          "files": 3326,
-          "bytes": 2395072802,
-          "gz": 634649546
+          "files": 3423,
+          "bytes": 2420026880,
+          "gz": 642558316
         }
       },
       "art": {
@@ -1715,9 +1804,9 @@
         },
         "icon": {
           "file": "icon.png",
-          "sha256": "d173fbc2f2254495348688bbfbcf1642945599045f9b52a27d8006c633bf010e",
-          "size": 443160,
-          "gz": 441938
+          "sha256": "6d85504385c97c8fe3909d9a6278271659b0e1adf0e7517fdc5ec7d864dca1b5",
+          "size": 267284,
+          "gz": 266494
         },
         "logo": {
           "file": "logo.png",
