@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 45,
-  "published": "2026-11-06T19:44:10Z",
+  "seq": 46,
+  "published": "2026-11-09T05:40:46Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,142 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.26",
-      "build": "bb826e09a6e36cba",
-      "published": "2026-11-06T19:44:10Z",
+      "version": "0.5.27",
+      "build": "18021f0c142bf14e",
+      "published": "2026-11-09T05:40:46Z",
       "notes": {
         "changelog": [
+          {
+            "date": "9 November 2026",
+            "sections": [
+              {
+                "heading": "Jungle isles",
+                "kind": "new",
+                "lead": "The Hotwood: islands warmed by Cinderfell's fire, grown over with jungle. Every world has some.",
+                "lines": [
+                  "Eight new trees: kapok giants on buttress roots, strangler figs, mangroves on stilt roots, coconut palms, fan palms, tree ferns, and bamboo in green and gold.",
+                  "Eleven new plants under them: banana, monstera, elephant ears, heliconia, bird of paradise, ginger, bromeliads, sword and nest ferns, and rotting nurse logs.",
+                  "Lianas hang from the canopy and vines sling between the trees.",
+                  "New ground: leaf litter, moss, red earth, root mats and wet rock, and steam rising off hot pools."
+                ]
+              },
+              {
+                "heading": "Streams and pools",
+                "kind": "new",
+                "lead": "Streams run down the islands into pools and ponds, and they are real water now: they flow, carry their foam, and you can wade and swim in them.",
+                "lines": [
+                  "Its surface is drawn as the sea's is, with reflections and the floor seen through it."
+                ]
+              },
+              {
+                "heading": "Foam",
+                "kind": "changed",
+                "lead": "The foam on the sea and on the streams is redone: fresh white water full of bubbles that thins into a lace of holes as it ages, carried along by the water.",
+                "lines": [
+                  "Breakers, wakes, a hull's bow wave, the surf on the cliffs and the white water in the streams all foam the same way."
+                ]
+              },
+              {
+                "heading": "The Old Hearth",
+                "kind": "new",
+                "lead": "In the middle of the Wild Chart rises the Beacon Mount, 187 m of crags with the Old Watch's beacon on its summit. Climb its Long Stair from the harbour, past the Watchers at its sea gate.",
+                "lines": [
+                  "Relight it: carry a torch up, light the four cauldrons at the bottom, and the fire climbs the chains to the Hearthflame in its bowl.",
+                  "The summit is walkable all the way round, through its gate."
+                ]
+              },
+              {
+                "heading": "Wrackholm and the Wreckers",
+                "kind": "new",
+                "lead": "The Wreckers have a home: Wrackholm, a cliff town in a gorge, with the Hanging Hulk, the Last Light and their hoard. They fly their own torn ensign.",
+                "lines": [
+                  "Their haunts, ruin camps and swinging false lights out on the chart are built from the same timbers, so you know them wherever you meet them."
+                ]
+              },
+              {
+                "heading": "Places on the islands",
+                "kind": "new",
+                "lead": "The islands out at sea have places to find: ruins, wrecks, survivors' camps and Wreckers' haunts, each in its own worn ground, and what you do there is kept.",
+                "lines": [
+                  "The rarest stand out from afar: an old mine's thread of smoke, a great wreck's masts with rags on her yard, a haunt's false light rocking on its pole."
+                ]
+              },
+              {
+                "heading": "Blueprint finds",
+                "kind": "new",
+                "lead": "Blueprints are found by grade, from charcoal scrawls nailed to ruin walls (hold F to pry one loose) to folios and master drawings in chests.",
+                "lines": [
+                  "Survivors and chests tell you where the rarest lie. Follow a lead and the compass rings where its clues put it.",
+                  "The lead log on L: the leads you follow, have heard of and have found, with their clues.",
+                  "A folio's case can hold a torn chart, its gilded X pinning a master drawing's place."
+                ]
+              },
+              {
+                "heading": "Digging",
+                "kind": "new",
+                "lead": "Dig on any island, not just Gleed. Ground a bite cuts loose from everything crumbles away, so nothing is left floating.",
+                "lines": [
+                  "With the pickaxe in hand, an ember cut line shows where your next swing bites."
+                ]
+              },
+              {
+                "heading": "Combat",
+                "kind": "changed",
+                "lead": "Every creature's blow winds up before it lands, so you can read it and get out of the way. Hit hard enough to break its poise and it staggers, the only thing that stops a blow.",
+                "lines": [
+                  "Your frame and your target's show over the kit, with each family's sigil.",
+                  "The fumarole throws, every hunter pounces, and a bellows's frenzy breaks when it dies.",
+                  "The F prompt and the night call are chips on the left of the screen, clear of the frames."
+                ]
+              },
+              {
+                "heading": "Building",
+                "kind": "changed",
+                "lead": "The build wheel is drawn as a builder's chart, in five kinds that fan their pieces out as you point at them: defence, path, sea, craft and camp.",
+                "lines": [
+                  "Every building's textures are repainted.",
+                  "Kerbstones are laid one stone at a time along a cobbled path's curve, and stop where paths meet."
+                ]
+              },
+              {
+                "heading": "Sky and light",
+                "kind": "changed",
+                "lead": "Clouds hide the sun and the moon and glow round them, and the land dims under a thick cloud. A change of weather no longer races the sky.",
+                "lines": [
+                  "The sun's shadows hold steady and soft as the camera moves, and light falls through the canopy in beams.",
+                  "The foot of a sunlit wall darkens where it meets the ground."
+                ]
+              },
+              {
+                "heading": "Boats and the sea",
+                "kind": "changed",
+                "lead": "Getting on and off a boat's ladder is redone, and Space on the ladder kicks you off into the sea.",
+                "lines": [
+                  "Jumping into the water from a height makes a proper splash.",
+                  "Basking sharks dive away from a boat on their line, and their fins cut a thin white line on the water."
+                ]
+              },
+              {
+                "heading": "Loading",
+                "kind": "changed",
+                "lead": "The loading screen shows the inked world chart, with a channel of molten lava for its bar. The window can be moved, resized or made fullscreen while the game loads.",
+                "lines": []
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "Long sails no longer run out of room for meshes and quit the game.",
+                "lines": [
+                  "No more triangle-shaped holes in the ground.",
+                  "The sea runs under the Old Hearth's harbour instead of up its quay.",
+                  "Dug pits and a brig's lower decks no longer show the sea's reflections.",
+                  "The Teeth's wreck keeps the Shipwright's plans in her hold's chest every time."
+                ]
+              }
+            ],
+            "title": "Into the Hotwood",
+            "version": "0.5.27"
+          },
           {
             "date": "6 November 2026",
             "sections": [
@@ -1558,15 +1689,15 @@
         ]
       },
       "manifest": {
-        "sha256": "bbf6ad081d20c1d1d33cc7a12628034d0602845c16ec3c27a7595a5cf65cf8e5",
-        "size": 710464,
-        "gz": 141868
+        "sha256": "1bf4b56a48a8c1d28f34e05bb00f0253642a386b9753cad9b394084ebabda2b0",
+        "size": 887188,
+        "gz": 177474
       },
       "platforms": {
         "windows": {
-          "files": 2667,
-          "bytes": 1527675137,
-          "gz": 412245358
+          "files": 3326,
+          "bytes": 2395072802,
+          "gz": 634649546
         }
       },
       "art": {
