@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 47,
-  "published": "2026-11-09T23:36:19Z",
+  "seq": 48,
+  "published": "2026-11-10T13:18:53Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,49 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.28",
-      "build": "edad886920fecc9e",
-      "published": "2026-11-09T23:36:19Z",
+      "version": "0.5.29",
+      "build": "13cbf274cbc0ee57",
+      "published": "2026-11-10T13:18:53Z",
       "notes": {
         "changelog": [
+          {
+            "date": "10 November 2026",
+            "sections": [
+              {
+                "heading": "The Warden's sword",
+                "kind": "changed",
+                "lead": "The sword hits when its blade does, and its swings flow into one another.",
+                "lines": [
+                  "Each swing lands as the blade comes round, a moment after the click, where it used to land on the click itself. The sword swings as often as before.",
+                  "The three swings follow on from each other, each with its own recovery, and the third is an overhead chop. Standing still, the whole body goes into the cut.",
+                  "The sword leaves a trail of light along the path its blade really took, in place of the old motes. A heavy blow's is brighter, a perfect one's gold.",
+                  "The wrist turns the blade out into each cut, so it no longer passes through the Warden.",
+                  "A rush, the shield or going down drops a swing you've begun. A heavy blow lands a little later after you let go."
+                ]
+              },
+              {
+                "heading": "The weight of a hit",
+                "kind": "new",
+                "lead": "Your own blows stop the picture for an instant and kick the camera, by how heavy they were.",
+                "lines": [
+                  "A solid sword hit is the lightest, the third swing and a heavy blow more, and a perfect moment the most. A perfect arrow has a small one too.",
+                  "Only your own hits do this on your screen. Creatures flinch away from whoever struck them."
+                ]
+              },
+              {
+                "heading": "Aiming",
+                "kind": "changed",
+                "lead": "A ring on the ground marks the enemy you've picked, and a line under your health shows your weapon's moment.",
+                "lines": [
+                  "The enemy you've picked has a ring of light on the ground round its feet. It fills as your weapon charges, turns white in the perfect moment, and sends a ripple of gold out over the ground when you hit it.",
+                  "A line under your health shows the same charge: a pip of light rides it into a bright gate. Let go as it gets there.",
+                  "The outlines round enemies are gone, and so are the two lines that ran along the ground to where you aimed."
+                ]
+              }
+            ],
+            "title": "Blows that land with the blade",
+            "version": "0.5.29"
+          },
           {
             "date": "10 November 2026",
             "sections": [
@@ -1778,15 +1816,15 @@
         ]
       },
       "manifest": {
-        "sha256": "e7943618dfe3c6f8e9fef0f17f26a5bf4253dc5c1903125abe9831030e308e94",
+        "sha256": "2ff10c842fc18c2ad14b6fe4a1f7436b6f056e55987b4de420c6f0f925284300",
         "size": 913045,
-        "gz": 182735
+        "gz": 182683
       },
       "platforms": {
         "windows": {
           "files": 3423,
-          "bytes": 2420026880,
-          "gz": 642558316
+          "bytes": 2423981734,
+          "gz": 643003762
         }
       },
       "art": {
