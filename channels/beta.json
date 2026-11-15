@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 49,
-  "published": "2026-11-15T00:44:41Z",
+  "seq": 50,
+  "published": "2026-11-15T01:32:46Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,26 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.30",
-      "build": "f3adb0868b3b450e",
-      "published": "2026-11-15T00:44:41Z",
+      "version": "0.5.31",
+      "build": "674bfff7f907cc5d",
+      "published": "2026-11-15T01:32:46Z",
       "notes": {
         "changelog": [
+          {
+            "date": "15 November 2026",
+            "sections": [
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "0.5.30 stopped by itself a few seconds into a new world. It had run out of room for the world's shapes, and now has half as much again.",
+                "lines": [
+                  "The game takes about 320 MB more video memory than before."
+                ]
+              }
+            ],
+            "title": "Room for the world",
+            "version": "0.5.31"
+          },
           {
             "date": "15 November 2026",
             "sections": [
@@ -1921,15 +1936,15 @@
         ]
       },
       "manifest": {
-        "sha256": "21fd688a59126611d8afe12c33f4d31f22e724f8e35906536d06c020e9c5fc75",
+        "sha256": "a5a80d84d88fda51c606429e6e86cab135787faa3c7215ad91a865b5f70a9eff",
         "size": 1989326,
-        "gz": 398329
+        "gz": 398331
       },
       "platforms": {
         "windows": {
           "files": 7457,
-          "bytes": 3883904277,
-          "gz": 821737217
+          "bytes": 3883904261,
+          "gz": 821737800
         }
       },
       "art": {
