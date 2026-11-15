@@ -2,8 +2,8 @@
   "format": 1,
   "name": "Hearth",
   "channel": "beta",
-  "seq": 48,
-  "published": "2026-11-10T13:18:53Z",
+  "seq": 49,
+  "published": "2026-11-15T00:44:41Z",
   "objects": "https://pub-0af611d981554c92b3dd76b8947076c5.r2.dev/",
   "games": [
     {
@@ -93,11 +93,116 @@
       "tagline": "Keep the hearthfire burning through the night.",
       "kicker": "Co-op build & defend",
       "accent": "224, 122, 46",
-      "version": "0.5.29",
-      "build": "13cbf274cbc0ee57",
-      "published": "2026-11-10T13:18:53Z",
+      "version": "0.5.30",
+      "build": "f3adb0868b3b450e",
+      "published": "2026-11-15T00:44:41Z",
       "notes": {
         "changelog": [
+          {
+            "date": "15 November 2026",
+            "sections": [
+              {
+                "heading": "Washed ashore",
+                "kind": "new",
+                "lead": "A world begins at dawn on the castaways' beach, with empty hands.",
+                "lines": [
+                  "Every keeper wakes on the sand of Gleed's east shore. The hearth is banked: hold F at it with a stick to wake it.",
+                  "There is no kit to choose at the fire. You make your own tools, a bench and your weapons, and learn what you wear.",
+                  "One first-steps hint shows at a time. Esc > Sound > First steps turns them off."
+                ]
+              },
+              {
+                "heading": "Keepers without kits",
+                "kind": "changed",
+                "lead": "A build is the two weapons in your hands.",
+                "lines": [
+                  "Weapons are things you wear. Key 1 uses the main hand's and key 2 the off hand's; each weapon's three abilities are on its hand's keys, Q E R and Z X C. Shift rolls for every keeper.",
+                  "The talents are the weapons' own trees. The first point in a tree learns its weapon. U opens them and K opens the spellbook.",
+                  "Two of one weapon open its devotion, and some pairs have a bond of their own.",
+                  "Kindle pays for abilities: five pips under your health, earned by your hands' hits and parries, resting higher in firelight than in the dark.",
+                  "Outfits come in six pieces, made at the bench and the Forge. A set worn whole gives its gift.",
+                  "A bar of thirteen buttons runs along the bottom: drag one onto another to trade them. The bag is a spread with your own keeper on its left page.",
+                  "Keys can be changed on the Esc menu's Keybinds page. A piece in hand now turns on V."
+                ]
+              },
+              {
+                "heading": "Food",
+                "kind": "new",
+                "lead": "The keep eats: a larder, a pot, fields, pens, rods and the hunt.",
+                "lines": [
+                  "Cook at the pot and eat a bowl for a meal's gift. At nightfall the hearthfolk eat from the larder; two hungry nights and one leaves at dawn.",
+                  "Fields are sown, weeded and reaped with a hoe. Pens lure, feed and breed animals, and a smokehouse keeps meat and fish.",
+                  "A rod is cast, struck and reeled against the fish's pull. Brambles, ceps, wild garlic, bee trees and salt pans can be picked.",
+                  "Hinds, stags, boars and hares live on the islands. A kill is carried over the shoulder to a butcher's block.",
+                  "The job wheel's Larder wedge sets hearthfolk to tending, herding, hunting, fishing, smoking and cooking."
+                ]
+              },
+              {
+                "heading": "Gleed and the weather",
+                "kind": "changed",
+                "lead": "The home island has grown, and its days are twice as long.",
+                "lines": [
+                  "Gleed is 600 m across, with a fell, the Rill and its Pool to wade and swim, and three Wreckers' camps at its ruins.",
+                  "A timber bridge is laid bank to bank with two clicks, in three tiers.",
+                  "Rain clears along a front and leaves rainbows. The sun's shafts come through the crowns all day.",
+                  "Breakers curl on the beaches in a storm, and a keeper swims in the sea as it is drawn.",
+                  "The beach has driftwood, kelp, shells and a tide pool. Boulders, gulls, crabs and the basking shark are remade."
+                ]
+              },
+              {
+                "heading": "The factions",
+                "kind": "changed",
+                "lead": "The Gloam and the lava creatures find you before they fight you, on the same terms as a keep.",
+                "lines": [
+                  "They scout for the keepers and need a reason to attack. A surplus goes to outposts that grow and a fleet that patrols.",
+                  "Their transports sail by the wind and wait for a fair one, and they earn at a keep's pace."
+                ]
+              },
+              {
+                "heading": "The Wreckers",
+                "kind": "new",
+                "lead": "The Wreckers remember how you treat them, and they sail.",
+                "lines": [
+                  "Your standing with them runs from Hunted to Sworn. By it a crew fights on sight, warns you off, asks its cut, or stands aside.",
+                  "A haunt's keeper trades by your standing. A crew that loses half its number runs for its boat, and word of the fight sails home.",
+                  "Luggers, raiders and a brig sail from Wrackholm. What they do about your sail depends on your standing.",
+                  "A cannon ball's strike is seen and heard by what it struck, and throws pieces from the hull.",
+                  "Survivors and Wreckers speak: their words are lettered over them and written in the chat.",
+                  "The crews wear their ships' colours."
+                ]
+              },
+              {
+                "heading": "Mining, making and the keep",
+                "kind": "changed",
+                "lead": "Ore, torches, chests and the hearthfolk's work are reworked.",
+                "lines": [
+                  "Each ore grows in the wall in its own habit and answers the pick with its own strike. A lode holds a set amount, and a pick too soft for an ore skates off it.",
+                  "The torch is a bundle of splints that burns low. An iron cresset is its upgrade.",
+                  "A jobs board gives each hearthfolk a role, and F beside one opens its sheet to gear it.",
+                  "A chest's lid lifts as you hold it open. Dropped piles are drawn as the things in them.",
+                  "The Sentry is the Heron, a machine of pieces. The spike trap is the Harrow.",
+                  "The cursor is a forged set whose head changes with what the pointer does."
+                ]
+              },
+              {
+                "heading": "Sound",
+                "kind": "changed",
+                "lead": "38 new sounds where the game was silent or wrong.",
+                "lines": []
+              },
+              {
+                "heading": "Fixes",
+                "kind": "fixed",
+                "lead": "No more boxes of light in the sky at sea.",
+                "lines": [
+                  "A game that stops by itself writes a crash report to crashes/ in its saves folder.",
+                  "The main hand's button shows the tool in hand, not the fist."
+                ]
+              }
+            ],
+            "title": "Washed ashore",
+            "version": "0.5.30"
+          },
           {
             "date": "10 November 2026",
             "sections": [
@@ -1816,15 +1921,15 @@
         ]
       },
       "manifest": {
-        "sha256": "2ff10c842fc18c2ad14b6fe4a1f7436b6f056e55987b4de420c6f0f925284300",
-        "size": 913045,
-        "gz": 182683
+        "sha256": "21fd688a59126611d8afe12c33f4d31f22e724f8e35906536d06c020e9c5fc75",
+        "size": 1989326,
+        "gz": 398329
       },
       "platforms": {
         "windows": {
-          "files": 3423,
-          "bytes": 2423981734,
-          "gz": 643003762
+          "files": 7457,
+          "bytes": 3883904277,
+          "gz": 821737217
         }
       },
       "art": {
